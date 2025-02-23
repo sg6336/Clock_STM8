@@ -1,9 +1,9 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Public\Documents\Altium\Projects\Clock_STM8\Altium\PCB_Clock_STM8\PCB_Clock_STM8.PcbDoc
-Date     : 23.02.2025
-Time     : 1:37:14
+Date     : 24.02.2025
+Time     : 0:18:51
 
-Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -15,43 +15,40 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.254mm) (Max=0.762mm) (Preferred=0.508mm) (All)
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=20mil) (All)
 Rule Violations :0
 
 Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
 Rule Violations :0
 
-Processing Rule : Routing Neck-Down Length Constraint (Max=2.54mm) (All)
+Processing Rule : SMD Neck-Down Constraint (Percent=90%) (All)
 Rule Violations :0
 
-Processing Rule : SMD Neck-Down Constraint (Percent=80%) (All)
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=20mil) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.508mm) (Entries=4) (All)
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=150mil) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=3.81mm) (All)
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+Processing Rule : Silk To Solder Mask (Clearance=5mil) (IsPad),(All)
 Rule Violations :0
 
-Processing Rule : Silk To Solder Mask (Clearance=0.127mm) (IsPad),(All)
+Processing Rule : Silk to Silk (Clearance=8mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Silk to Silk (Clearance=0.203mm) (All),(All)
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
-Processing Rule : Net Antennae (Tolerance=0mm) (All)
-Rule Violations :0
-
-Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
