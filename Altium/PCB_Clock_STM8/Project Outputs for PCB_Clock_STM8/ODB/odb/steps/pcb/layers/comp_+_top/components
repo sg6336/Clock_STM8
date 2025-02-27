@@ -1,0 +1,678 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+@5 .placement_layer
+
+#
+#Component attribute text strings
+#
+&0 top_layer
+
+# CMP 0
+CMP 7 40.64 40.64 0 N D3 LCD ;0=2,1=7.2000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/LDQ-M3604RI/Lumex/view-part/?ref=eda'
+PRP MF 'Lumex'
+PRP MP 'LDQ-M3604RI'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/LDQ-M3604RI/Lumex/view-part/?ref=snap'
+PRP Value ''
+TOP 0 34.29 35.56 0 N 12 1 1
+TOP 1 36.83 35.56 0 N 13 2 2
+TOP 2 39.37 35.56 0 N 9 1 3
+TOP 3 41.91 35.56 0 N 14 6 4
+TOP 4 44.45 35.56 0 N 10 2 5
+TOP 5 46.99 35.56 0 N 22 2 6
+TOP 6 46.99 45.72 0 N 15 4 7
+TOP 7 44.45 45.72 0 N 23 4 8
+TOP 8 41.91 45.72 0 N 24 4 9
+TOP 9 39.37 45.72 0 N 11 1 10
+TOP 10 36.83 45.72 0 N 16 4 11
+TOP 11 34.29 45.72 0 N 25 4 12
+#
+# CMP 1
+CMP 1 60.96 57.15 90 N C7 100pF ;0=1,1=0.0000,5=0
+PRP Availability 'Unavailable'
+PRP MF ''
+PRP MP 'C1206C101JBGACTU'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 60.96 58.624978 90 N 27 6 1
+TOP 1 60.96 55.675022 90 N 26 26 2
+#
+# CMP 2
+CMP 1 60.96 63.5 270 N C6 100pF ;0=1,1=0.0000,5=0
+PRP Availability 'Unavailable'
+PRP MF ''
+PRP MP 'C1206C101JBGACTU'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 60.96 62.025022 270 N 28 8 1
+TOP 1 60.96 64.974978 270 N 26 23 2
+#
+# CMP 3
+CMP 0 45.72 66.04 180 N C10 100uF ;0=1,1=0.0000,5=0
+PRP Digi-Key_Part_Number '490-13982-1-ND'
+PRP Digi-Key_Purchase_URL 'https://www.digikey.com/product-detail/en/murata-electronics/GRM31CR60J107KE39L/490-13982-1-ND/6155812?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol'
+PRP MF 'Murata Electronics'
+PRP MP 'GRM31CR60J107KE39L'
+PRP Package '1206 Murata'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/GRM31CR60J107KE39L/Murata%20Electronics%20North%20America/view-part/1756509/?ref=snap'
+PRP Value ''
+TOP 0 47.2049856 66.04 90 N 32 23 1
+TOP 1 44.2350144 66.04 90 N 26 25 2
+#
+# CMP 4
+CMP 1 53.34 66.04 0 N C9 1uF ;0=1,1=0.0000,5=0
+PRP Availability 'Unavailable'
+PRP MF ''
+PRP MP 'C1206C105J3RACTU'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 51.865022 66.04 0 N 32 22 1
+TOP 1 54.814978 66.04 0 N 26 24 2
+#
+# CMP 5
+CMP 1 12.7 17.78 270 N C5 1uF ;0=1,1=0.0000,5=0
+PRP Availability 'Unavailable'
+PRP MF ''
+PRP MP 'C1206C105J3RACTU'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 12.7 16.305022 270 N 32 45 1
+TOP 1 12.7 19.254978 270 N 26 46 2
+#
+# CMP 6
+CMP 1 29.591 63.246 0 N C11 680nF ;0=1,1=0.0000,5=0
+PRP Availability 'Unavailable'
+PRP MF ''
+PRP MP 'C1206C684K5RACTU'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 28.116022 63.246 0 N 2 1 1
+TOP 1 31.065978 63.246 0 N 26 35 2
+#
+# CMP 7
+CMP 8 68.58 16.51 0 N D2 LED ;0=1,1=0.0000,5=0
+PRP Availability 'Not in stock'
+PRP Check_prices 'https://www.snapeda.com/parts/LHN974%20RED%20LED%201206/Osram/view-part/7899607/?ref=eda'
+PRP MF 'Osram'
+PRP MP 'LHN974 RED LED 1206'
+PRP Package 'None'
+PRP Price 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/LHN974%20RED%20LED%201206/Osram/view-part/7899607/?ref=snap'
+PRP Value ''
+TOP 0 70.0899792 16.51 0 N 26 51 NEG
+TOP 1 67.0700208 16.51 0 N 21 0 POS
+#
+# CMP 8
+CMP 12 12.7 48.26 270 N J13 BUTTON ;0=2,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=eda'
+PRP MF 'Samtec'
+PRP MP 'MTMM-101-05-G-S-225'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=snap'
+PRP Value ''
+TOP 0 12.7 48.26 270 N 29 5 01
+#
+# CMP 9
+CMP 12 68.58 48.26 270 N J12 BUTTON ;0=2,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=eda'
+PRP MF 'Samtec'
+PRP MP 'MTMM-101-05-G-S-225'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=snap'
+PRP Value ''
+TOP 0 68.58 48.26 270 N 30 1 01
+#
+# CMP 10
+CMP 12 63.5 58.42 270 N J11 DIO ;0=2,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=eda'
+PRP MF 'Samtec'
+PRP MP 'MTMM-101-05-G-S-225'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=snap'
+PRP Value ''
+TOP 0 63.5 58.42 270 N 27 7 01
+#
+# CMP 11
+CMP 12 63.5 63.5 270 N J10 CLK ;0=2,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=eda'
+PRP MF 'Samtec'
+PRP MP 'MTMM-101-05-G-S-225'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=snap'
+PRP Value ''
+TOP 0 63.5 63.5 270 N 28 7 01
+#
+# CMP 12
+CMP 12 27.94 30.48 270 N J9 VBAT ;0=2,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=eda'
+PRP MF 'Samtec'
+PRP MP 'MTMM-101-05-G-S-225'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=snap'
+PRP Value ''
+TOP 0 27.94 30.48 270 N 3 6 01
+#
+# CMP 13
+CMP 12 58.42 30.48 270 N J8 +3.3V ;0=2,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=eda'
+PRP MF 'Samtec'
+PRP MP 'MTMM-101-05-G-S-225'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=snap'
+PRP Value ''
+TOP 0 58.42 30.48 270 N 32 38 01
+#
+# CMP 14
+CMP 12 12.7 30.48 270 N J6 SQW/INT ;0=2,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=eda'
+PRP MF 'Samtec'
+PRP MP 'MTMM-101-05-G-S-225'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=snap'
+PRP Value ''
+TOP 0 12.7 30.48 270 N 8 5 01
+#
+# CMP 15
+CMP 12 17.78 30.48 180 N J4 SCL ;0=2,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=eda'
+PRP MF 'Samtec'
+PRP MP 'MTMM-101-05-G-S-225'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=snap'
+PRP Value ''
+TOP 0 17.78 30.48 180 N 18 5 01
+#
+# CMP 16
+CMP 12 22.86 30.48 180 N J3 SDA ;0=2,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=eda'
+PRP MF 'Samtec'
+PRP MP 'MTMM-101-05-G-S-225'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=snap'
+PRP Value ''
+TOP 0 22.86 30.48 180 N 17 5 01
+#
+# CMP 17
+CMP 12 66.04 30.48 270 N J7 Vin ;0=2,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=eda'
+PRP MF 'Samtec'
+PRP MP 'MTMM-101-05-G-S-225'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=snap'
+PRP Value ''
+TOP 0 66.04 30.48 270 N 1 1 01
+#
+# CMP 18
+CMP 12 76.2 30.48 270 N J5 GND ;0=2,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=eda'
+PRP MF 'Samtec'
+PRP MP 'MTMM-101-05-G-S-225'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=snap'
+PRP Value ''
+TOP 0 76.2 30.48 270 N 26 41 01
+#
+# CMP 19
+CMP 12 73.66 30.48 270 N J2 +5V ;0=2,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=eda'
+PRP MF 'Samtec'
+PRP MP 'MTMM-101-05-G-S-225'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MTMM-101-05-G-S-225/Samtec/view-part/?ref=snap'
+PRP Value ''
+TOP 0 73.66 30.48 270 N 31 1 01
+#
+# CMP 20
+CMP 4 64.77 27.94 180 N C1 10uF ;0=1,1=0.0000,5=0
+PRP Availability 'Unavailable'
+PRP MF ''
+PRP MP 'GRM31CB31E106KA75L'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 66.1699972 27.94 180 N 1 4 1
+TOP 1 63.3700028 27.94 180 N 26 50 2
+#
+# CMP 21
+CMP 16 27.94 58.42 0 N U4 STM8S103F3P6 ;0=1,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/STM8S103F3P6/STMicroelectronics/view-part/?ref=eda'
+PRP MF 'STMicroelectronics'
+PRP MP 'STM8S103F3P6'
+PRP Package 'TSSOP-20 STMicroelectronics'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/STM8S103F3P6/STMicroelectronics/view-part/?ref=snap'
+PRP Value ''
+TOP 0 25.0399804 61.3450132 0 N 0 8 1
+TOP 1 25.0399804 60.6949764 0 N 4 2 2
+TOP 2 25.0399804 60.0449904 0 N 19 2 3
+TOP 3 25.0399804 59.3950044 0 N 20 3 4
+TOP 4 25.0399804 58.7449676 0 N 0 11 5
+TOP 5 25.0399804 58.0949816 0 N 0 14 6
+TOP 6 25.0399804 57.4449956 0 N 26 36 7
+TOP 7 25.0399804 56.7950096 0 N 2 2 8
+TOP 8 25.0399804 56.1449728 0 N 32 32 9
+TOP 9 25.0399804 55.4949868 0 N 8 3 10
+TOP 10 30.8400196 55.4949868 0 N 17 3 11
+TOP 11 30.8400196 56.1449728 0 N 18 3 12
+TOP 12 30.8400196 56.7950096 0 N 30 3 13
+TOP 13 30.8400196 57.4449956 0 N 0 13 14
+TOP 14 30.8400196 58.0949816 0 N 28 4 15
+TOP 15 30.8400196 58.7449676 0 N 27 3 16
+TOP 16 30.8400196 59.3950044 0 N 0 12 17
+TOP 17 30.8400196 60.0449904 0 N 5 2 18
+TOP 18 30.8400196 60.6949764 0 N 29 4 19
+TOP 19 30.8400196 61.3450132 0 N 0 7 20
+#
+# CMP 22
+CMP 6 77.3400028 22.509988 270 N J1 USB ;0=1,1=3.3100,5=0
+PRP Availability 'Unavailable'
+PRP MF '{_manufacturer_: u_GCT_}'
+PRP MP 'USB4105-GF-A'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 72.5850212 19.3099944 270 N 26 37 A1_B12
+TOP 1 72.5850212 20.1099928 270 N 31 3 A4_B9
+TOP 2 72.5850212 21.2600032 270 N 0 4 A5
+TOP 3 72.5850212 22.2600012 270 N 0 1 A6
+TOP 4 72.5850212 22.7599748 270 N 0 2 A7
+TOP 5 72.5850212 23.7599728 270 N 0 3 A8
+TOP 6 72.5850212 25.7099816 270 N 26 34 B1_A12
+TOP 7 72.5850212 24.9099832 270 N 31 2 B4_A9
+TOP 8 72.5850212 24.2599972 270 N 0 6 B5
+TOP 9 72.5850212 23.2599992 270 N 0 0 B6
+TOP 10 72.5850212 21.7599768 270 N 0 5 B7
+TOP 11 72.5850212 20.7599788 270 N 0 25 B8
+TOP 12 73.66 19.619976 270 N 0 9 empty-1
+TOP 13 73.66 25.4 270 N 0 10 empty-2
+TOP 14 73.1600264 18.1900068 180 N 26 42 SH1
+TOP 15 73.1600264 26.8299692 180 N 26 45 SH2
+TOP 16 77.3400028 18.1900068 180 N 26 44 SH3
+TOP 17 77.3400028 26.8299692 180 N 26 43 SH4
+#
+# CMP 23
+CMP 9 40.64 5.08 180 N BT1 CR2032 ;0=2,1=0.0000,5=0
+TOP 0 40.64 25.0800108 180 N 3 5 1
+TOP 1 40.64 5.08 180 N 26 40 2
+#
+# CMP 24
+CMP 15 49.53 57.15 0 N U3 TM1637 ;0=1,1=2.5500,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/TM1637_SOP20/Titan+Micro+Electronics/view-part/?ref=eda'
+PRP MF 'Titan Micro Electronics'
+PRP MP 'TM1637_SOP20'
+PRP Package 'Package'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/TM1637_SOP20/Titan+Micro+Electronics/view-part/?ref=snap'
+PRP Value ''
+TOP 0 44.7699892 62.865 0 N 26 31 1
+TOP 1 44.7699892 61.595 0 N 16 3 2
+TOP 2 44.7699892 60.325 0 N 15 3 3
+TOP 3 44.7699892 59.055 0 N 14 5 4
+TOP 4 44.7699892 57.785 0 N 13 1 5
+TOP 5 44.7699892 56.515 0 N 12 2 6
+TOP 6 44.7699892 55.245 0 N 11 2 7
+TOP 7 44.7699892 53.975 0 N 10 1 8
+TOP 8 44.7699892 52.705 0 N 9 2 9
+TOP 9 44.7699892 51.435 0 N 0 24 10
+TOP 10 54.2900108 51.435 0 N 0 23 11
+TOP 11 54.2900108 52.705 0 N 22 1 12
+TOP 12 54.2900108 53.975 0 N 23 3 13
+TOP 13 54.2900108 55.245 0 N 24 3 14
+TOP 14 54.2900108 56.515 0 N 25 3 15
+TOP 15 54.2900108 57.785 0 N 32 33 16
+TOP 16 54.2900108 59.055 0 N 27 4 17
+TOP 17 54.2900108 60.325 0 N 28 5 18
+TOP 18 54.2900108 61.595 0 N 0 26 19
+TOP 19 54.2900108 62.865 0 N 0 29 20
+#
+# CMP 25
+CMP 18 22.86 17.78 270 N U2 DS3231 ;0=1,1=2.6500,5=0
+PRP Code_IPC 'SOIC127P1030-16'
+PRP Code_JEDEC 'MS-013-AA'
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.maxim-ic.com'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://datasheets.maxim-ic.com/en/ds/DS3231.pdf'
+PRP ComponentLink3Description 'Package Specification'
+PRP ComponentLink3URL 'http://pdfserv.maxim-ic.com/package_dwgs/21-0042.PDF'
+PRP DatasheetVersion 'Rev 8, Jul-2010'
+PRP PackageDescription '16-Pin Small-Outline IC, Wide (0.3in), 1.27 mm Pitch, SOIC (W), RoHS Qualified'
+PRP PackageReference 'W16#H2'
+PRP PackageVersion 'revD, 2010'
+TOP 0 18.415 13.2299964 180 N 0 28 1
+TOP 1 19.685 13.2299964 180 N 32 28 2
+TOP 2 20.955 13.2299964 180 N 8 4 3
+TOP 3 22.225 13.2299964 180 N 0 27 4
+TOP 4 23.495 13.2299964 180 N 0 22 5
+TOP 5 24.765 13.2299964 180 N 0 17 6
+TOP 6 26.035 13.2299964 180 N 0 16 7
+TOP 7 27.305 13.2299964 180 N 0 15 8
+TOP 8 27.305 22.3300036 180 N 0 19 9
+TOP 9 26.035 22.3300036 180 N 0 20 10
+TOP 10 24.765 22.3300036 180 N 0 21 11
+TOP 11 23.495 22.3300036 180 N 0 18 12
+TOP 12 22.225 22.3300036 180 N 26 32 13
+TOP 13 20.955 22.3300036 180 N 3 4 14
+TOP 14 19.685 22.3300036 180 N 17 4 15
+TOP 15 18.415 22.3300036 180 N 18 4 16
+#
+# CMP 26
+CMP 5 63.5 22.86 180 N U1 AMS1117-3.3 ;0=1,1=0.0000,5=0
+PRP Automotive 'No'
+PRP Category 'IC'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.advanced-monolithic.com/pdf/ds1117.pdf'
+PRP Device_Class_L1 'Integrated Circuits (ICs)'
+PRP Device_Class_L2 'Power Management ICs'
+PRP Device_Class_L3 'Voltage Regulators - Linear'
+PRP Dropout_Voltage '1.1V'
+PRP Height '1.8mm'
+PRP Ipc_Land_Pattern_Name 'SOT229P700X180-4'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Advanced Monolithic Systems'
+PRP Manufacturer_Part_Number 'AMS1117-3.3'
+PRP Max_Junction_Temp '+125°C'
+PRP Max_Power_Dissipation '1.2W'
+PRP Max_Supply_Voltage '15V'
+PRP Nominal_Supply_Current '5mA'
+PRP Number_Of_Outputs '1'
+PRP Octopart 'https://octopart.com/ams1117-3.3-advanced+monolithic+systems-25899300'
+PRP Output_Current '1A'
+PRP Output_Type 'Fixed'
+PRP Output_Voltage '3.3V'
+PRP Package 'AMS1117'
+PRP RoHS 'TRUE'
+PRP Standoff_Height '0.64mm'
+PRP Temperature '-40°C to +125°C'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-40°C'
+TOP 0 66.8950148 20.5699868 180 N 26 33 1
+TOP 1 66.8950148 22.86 180 N 32 29 2
+TOP 2 66.8950148 25.1500132 180 N 1 3 3
+TOP 3 60.1049852 22.86 180 N 32 30 4
+#
+# CMP 27
+CMP 17 5.3700172 41.1699964 270 N SW2 BUTTON ;0=1,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/FSM6JSMA/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda'
+PRP Configuration_Pole-Throw 'Single Pole - Single Throw'
+PRP Contact_Current_Rating '50 mA'
+PRP EU_RoHS_Compliance 'Compliant'
+PRP MF 'TE Connectivity'
+PRP MP 'FSM6JSMA'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/FSM6JSMA/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap'
+PRP Value ''
+TOP 0 3.1200344 36.6199928 270 N 32 34 1
+TOP 1 3.1200344 45.72 270 N 32 43 2
+TOP 2 7.62 36.6199928 270 N 6 0 3
+TOP 3 7.62 45.72 270 N 6 1 4
+#
+# CMP 28
+CMP 17 75.9099828 41.1699964 90 N SW1 BUTTON ;0=1,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/FSM6JSMA/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda'
+PRP Configuration_Pole-Throw 'Single Pole - Single Throw'
+PRP Contact_Current_Rating '50 mA'
+PRP EU_RoHS_Compliance 'Compliant'
+PRP MF 'TE Connectivity'
+PRP MP 'FSM6JSMA'
+PRP Package 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/FSM6JSMA/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap'
+PRP Value ''
+TOP 0 78.1599656 45.72 90 N 32 41 1
+TOP 1 78.1599656 36.6199928 90 N 32 42 2
+TOP 2 73.66 45.72 90 N 7 3 3
+TOP 3 73.66 36.6199928 90 N 7 2 4
+#
+# CMP 29
+CMP 11 12.7 36.83 0 N R11 10k ;0=1,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=eda'
+PRP MF 'Yageo Corporation'
+PRP MP 'RC1206FR0710KL'
+PRP Package '1206-2 YAGEO'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=snap'
+PRP Value ''
+TOP 0 11.2268 36.83 0 N 6 2 1
+TOP 1 14.1732 36.83 0 N 26 29 2
+#
+# CMP 30
+CMP 11 68.58 36.83 180 N R10 10k ;0=1,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=eda'
+PRP MF 'Yageo Corporation'
+PRP MP 'RC1206FR0710KL'
+PRP Package '1206-2 YAGEO'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=snap'
+PRP Value ''
+TOP 0 70.0532 36.83 180 N 7 0 1
+TOP 1 67.1068 36.83 180 N 26 27 2
+#
+# CMP 31
+CMP 10 12.7 44.45 0 N R9 1k ;0=1,1=0.6500,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/SR1206FR071KL/Yageo/view-part/?ref=eda'
+PRP MF 'Yageo Corporation'
+PRP MP 'SR1206FR071KL'
+PRP Package '1206-2 YAGEO'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/SR1206FR071KL/Yageo/view-part/?ref=snap'
+PRP Value ''
+TOP 0 11.2449864 44.45 0 N 6 3 1
+TOP 1 14.1550136 44.45 0 N 29 6 2
+#
+# CMP 32
+CMP 10 68.58 44.45 180 N R8 1k ;0=1,1=0.6500,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/SR1206FR071KL/Yageo/view-part/?ref=eda'
+PRP MF 'Yageo Corporation'
+PRP MP 'SR1206FR071KL'
+PRP Package '1206-2 YAGEO'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/SR1206FR071KL/Yageo/view-part/?ref=snap'
+PRP Value ''
+TOP 0 70.0350136 44.45 180 N 7 1 1
+TOP 1 67.1249864 44.45 180 N 30 2 2
+#
+# CMP 33
+CMP 10 63.5 16.51 180 N R7 1k ;0=1,1=0.6500,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/SR1206FR071KL/Yageo/view-part/?ref=eda'
+PRP MF 'Yageo Corporation'
+PRP MP 'SR1206FR071KL'
+PRP Package '1206-2 YAGEO'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/SR1206FR071KL/Yageo/view-part/?ref=snap'
+PRP Value ''
+TOP 0 64.9550136 16.51 180 N 21 1 1
+TOP 1 62.0449864 16.51 180 N 32 35 2
+#
+# CMP 34
+CMP 11 24.384 63.246 0 N R6 10k ;0=1,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=eda'
+PRP MF 'Yageo Corporation'
+PRP MP 'RC1206FR0710KL'
+PRP Package '1206-2 YAGEO'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=snap'
+PRP Value ''
+TOP 0 22.9108 63.246 0 N 32 31 1
+TOP 1 25.8572 63.246 0 N 20 4 2
+#
+# CMP 35
+CMP 11 58.42 57.15 270 N R5 10k ;0=1,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=eda'
+PRP MF 'Yageo Corporation'
+PRP MP 'RC1206FR0710KL'
+PRP Package '1206-2 YAGEO'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=snap'
+PRP Value ''
+TOP 0 58.42 55.6768 270 N 32 26 1
+TOP 1 58.42 58.6232 270 N 27 5 2
+#
+# CMP 36
+CMP 11 58.42 63.5 90 N R4 10k ;0=1,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=eda'
+PRP MF 'Yageo Corporation'
+PRP MP 'RC1206FR0710KL'
+PRP Package '1206-2 YAGEO'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=snap'
+PRP Value ''
+TOP 0 58.42 64.9732 90 N 32 27 1
+TOP 1 58.42 62.0268 90 N 28 6 2
+#
+# CMP 37
+CMP 11 11.43 26.67 0 N R3 10k ;0=1,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=eda'
+PRP MF 'Yageo Corporation'
+PRP MP 'RC1206FR0710KL'
+PRP Package '1206-2 YAGEO'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=snap'
+PRP Value ''
+TOP 0 9.9568 26.67 0 N 32 25 1
+TOP 1 12.9032 26.67 0 N 8 6 2
+#
+# CMP 38
+CMP 11 21.59 26.67 180 N R2 10k ;0=1,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=eda'
+PRP MF 'Yageo Corporation'
+PRP MP 'RC1206FR0710KL'
+PRP Package '1206-2 YAGEO'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=snap'
+PRP Value ''
+TOP 0 23.0632 26.67 180 N 32 44 1
+TOP 1 20.1168 26.67 180 N 17 6 2
+#
+# CMP 39
+CMP 11 16.51 26.67 0 N R1 10k ;0=1,1=0.0000,5=0
+PRP Check_prices 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=eda'
+PRP MF 'Yageo Corporation'
+PRP MP 'RC1206FR0710KL'
+PRP Package '1206-2 YAGEO'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/RC1206FR0710KL/Yageo/view-part/?ref=snap'
+PRP Value ''
+TOP 0 15.0368 26.67 0 N 32 37 1
+TOP 1 17.9832 26.67 0 N 18 6 2
+#
+# CMP 40
+CMP 13 20.32 57.15 90 N J15 UART ;0=2,1=0.0000,5=0
+PRP Availability 'Unavailable'
+PRP MF 'Samtec Inc.'
+PRP MP 'TSW-104-07-S-S'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 20.32 60.96 90 N 32 39 01
+TOP 1 20.32 58.42 90 N 4 3 02
+TOP 2 20.32 55.88 90 N 19 1 03
+TOP 3 20.32 53.34 90 N 26 38 04
+#
+# CMP 41
+CMP 13 29.21 66.03998984 180 N J14 ST-Link_V2 ;0=2,1=0.0000,5=0
+PRP Availability 'Unavailable'
+PRP MF 'Samtec Inc.'
+PRP MP 'TSW-104-07-S-S'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 33.02 66.04 180 N 20 5 01
+TOP 1 30.48 66.04 180 N 5 3 02
+TOP 2 27.94 66.04 180 N 26 39 03
+TOP 3 25.4 66.04 180 N 32 40 04
+#
+# CMP 42
+CMP 14 69.85 25.4 90 N D1 1N5819 ;0=1,1=0.0000,5=0
+PRP Availability 'In Stock'
+PRP Check_prices 'https://www.snapeda.com/parts/1N5819HW-7/Diodes+Inc./view-part/?ref=eda'
+PRP MF 'Diodes Inc.'
+PRP MP '1N5819HW-7'
+PRP Package 'SOD-123 Fairchild Semiconductor'
+PRP Price 'None'
+PRP Purchase-URL 'https://pricing.snapeda.com/search/part/1N5819HW-7/?ref=eda'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/1N5819HW-7/Diodes+Inc./view-part/?ref=snap'
+PRP Value ''
+TOP 0 69.85 23.7199932 90 N 31 0 A
+TOP 1 69.85 27.0800068 90 N 1 2 C
+#
+# CMP 43
+CMP 3 12.7 40.64 180 N C13 100nF ;0=1,1=0.0000,5=0
+PRP Availability 'In Stock'
+PRP Check_prices 'https://www.snapeda.com/parts/CL31B104KBCNNNC/Samsung+Electro-Mechanics/view-part/?ref=eda'
+PRP MF 'Samsung Electro-Mechanics'
+PRP MP 'CL31B104KBCNNNC'
+PRP Package '1206 Samsung'
+PRP Price 'None'
+PRP Purchase-URL 'https://pricing.snapeda.com/search/part/CL31B104KBCNNNC/?ref=eda'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/CL31B104KBCNNNC/Samsung+Electro-Mechanics/view-part/?ref=snap'
+PRP Value ''
+TOP 0 14.159992 40.64 180 N 29 3 1
+TOP 1 11.240008 40.64 180 N 26 28 2
+#
+# CMP 44
+CMP 3 68.58 40.64 0 N C12 100nF ;0=1,1=0.0000,5=0
+PRP Availability 'In Stock'
+PRP Check_prices 'https://www.snapeda.com/parts/CL31B104KBCNNNC/Samsung+Electro-Mechanics/view-part/?ref=eda'
+PRP MF 'Samsung Electro-Mechanics'
+PRP MP 'CL31B104KBCNNNC'
+PRP Package '1206 Samsung'
+PRP Price 'None'
+PRP Purchase-URL 'https://pricing.snapeda.com/search/part/CL31B104KBCNNNC/?ref=eda'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/CL31B104KBCNNNC/Samsung+Electro-Mechanics/view-part/?ref=snap'
+PRP Value ''
+TOP 0 67.120008 40.64 0 N 30 4 1
+TOP 1 70.039992 40.64 0 N 26 48 2
+#
+# CMP 45
+CMP 3 24.13 53.34 180 N C8 100nF ;0=1,1=0.0000,5=0
+PRP Availability 'In Stock'
+PRP Check_prices 'https://www.snapeda.com/parts/CL31B104KBCNNNC/Samsung+Electro-Mechanics/view-part/?ref=eda'
+PRP MF 'Samsung Electro-Mechanics'
+PRP MP 'CL31B104KBCNNNC'
+PRP Package '1206 Samsung'
+PRP Price 'None'
+PRP Purchase-URL 'https://pricing.snapeda.com/search/part/CL31B104KBCNNNC/?ref=eda'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/CL31B104KBCNNNC/Samsung+Electro-Mechanics/view-part/?ref=snap'
+PRP Value ''
+TOP 0 25.589992 53.34 180 N 32 24 1
+TOP 1 22.670008 53.34 180 N 26 30 2
+#
+# CMP 46
+CMP 3 15.24 17.78 270 N C4 100nF ;0=1,1=0.0000,5=0
+PRP Availability 'In Stock'
+PRP Check_prices 'https://www.snapeda.com/parts/CL31B104KBCNNNC/Samsung+Electro-Mechanics/view-part/?ref=eda'
+PRP MF 'Samsung Electro-Mechanics'
+PRP MP 'CL31B104KBCNNNC'
+PRP Package '1206 Samsung'
+PRP Price 'None'
+PRP Purchase-URL 'https://pricing.snapeda.com/search/part/CL31B104KBCNNNC/?ref=eda'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/CL31B104KBCNNNC/Samsung+Electro-Mechanics/view-part/?ref=snap'
+PRP Value ''
+TOP 0 15.24 16.320008 270 N 32 46 1
+TOP 1 15.24 19.239992 270 N 26 47 2
+#
+# CMP 47
+CMP 3 26.67 26.67 180 N C3 100nF ;0=1,1=0.0000,5=0
+PRP Availability 'In Stock'
+PRP Check_prices 'https://www.snapeda.com/parts/CL31B104KBCNNNC/Samsung+Electro-Mechanics/view-part/?ref=eda'
+PRP MF 'Samsung Electro-Mechanics'
+PRP MP 'CL31B104KBCNNNC'
+PRP Package '1206 Samsung'
+PRP Price 'None'
+PRP Purchase-URL 'https://pricing.snapeda.com/search/part/CL31B104KBCNNNC/?ref=eda'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/CL31B104KBCNNNC/Samsung+Electro-Mechanics/view-part/?ref=snap'
+PRP Value ''
+TOP 0 28.129992 26.67 180 N 3 3 1
+TOP 1 25.210008 26.67 180 N 26 49 2
+#
+# CMP 48
+CMP 2 57.15 21.541994 270 N C2 22uF ;0=1,1=0.0000,5=0
+PRP Availability 'Unavailable'
+PRP MF ''
+PRP MP 'altium_native_batch'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 57.15 20.223988 270 N 26 52 1
+TOP 1 57.15 22.86 270 N 32 36 2
+#
