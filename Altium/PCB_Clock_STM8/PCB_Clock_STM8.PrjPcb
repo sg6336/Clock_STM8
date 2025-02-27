@@ -84,23 +84,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=PCB_Clock_STM8.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
 DocumentPath=LIB\1N5819\1N5819HW-7.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document4]
 DocumentPath=LIB\AMS1117-3.3\AMS1117-3.3.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document5]
 DocumentPath=LIB\Botton\4-1437565-9.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document6]
 DocumentPath=LIB\Capacitor 10uF\GRM31CB31E106KA75L.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document7]
 DocumentPath=LIB\Capacitor 22uF\GRM31CR61E226KE15L.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document8]
 DocumentPath=LIB\Capacitor 100nF\CL31B104KBCNNNC.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document9]
 DocumentPath=LIB\Capacitor 100pF\C1206C101JBGACTU.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=LIB\DS3231SN\DS3231SN.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document11]
 DocumentPath=LIB\Pin 4\TSW-104-07-S-S.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=LIB\Resistor 1k\SR1206FR-071KL.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document13]
 DocumentPath=LIB\Resistor 10k\RC1206FR-0710KL.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,7 +270,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document14]
 DocumentPath=LIB\STM8S103F3P6\STM8S103F3P6.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -304,7 +287,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document15]
 DocumentPath=LIB\TM1637\TM1637_SOP20.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -321,7 +304,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document16]
 DocumentPath=LIB\USB Type-C Power\USB4105-GF-A.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -338,7 +321,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document18]
+[Document17]
 DocumentPath=PCB_Clock_STM8.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -355,7 +338,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PFARWLCE
 
-[Document19]
+[Document18]
 DocumentPath=LIB\LDQ-M3604RI\LDQ-M3604RI.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -372,7 +355,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document20]
+[Document19]
 DocumentPath=LIB\Cell Holder for CR2032\2898\Project Outputs for 2898_new\2898_new.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -389,7 +372,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document20]
 DocumentPath=LIB\USB Type-C Power\USB4105-GF-A\Project Outputs for USB4105-GF-A_new\USB4105-GF-A_new.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -406,7 +389,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document21]
 DocumentPath=LIB\STM8S103F3P6\STM8S103F3P6\Project Outputs for STM8S103F3P6_new\STM8S103F3P6_new.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -423,7 +406,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document22]
 DocumentPath=LIB\Capacitor 10uF\GRM31CB31E106KA75L\Project Outputs for GRM31CB31E106KA75L_new\GRM31CB31E106KA75L_new.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -440,7 +423,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document23]
 DocumentPath=LIB\Pin 1\MTMM-101-X-X-S-X\Project Outputs for MTMM-101-X-X-S-X\MTMM-101-X-X-S-X.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -457,7 +440,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document24]
 DocumentPath=LIB\Capacitor 680nF\C1206C684K5RACTU\Project Outputs for C_1206_680nF\C_1206_680nF.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -474,7 +457,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document25]
 DocumentPath=LIB\Capacitor 1uF\C1206C105J3RACTU\Project Outputs for C_1206_1uF\C_1206_1uF.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -491,7 +474,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document26]
 DocumentPath=LIB\Capacitor 100uF\GRM31CR60J107KE39L\Project Outputs for C_1206_100uF\C_1206_100uF.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -508,7 +491,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document27]
 DocumentPath=LIB\Battery\CR2032.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -525,7 +508,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TEYMPWYQ
 
-[Document29]
+[Document28]
 DocumentPath=LIB\Battery\CR2032.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -542,7 +525,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RMTMPROM
 
-[Document30]
+[Document29]
 DocumentPath=LIB\Capacitor 100pF\C1206C101JBGACTU\Project Outputs for C_1206_100pF\C_1206_100pF.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -559,7 +542,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document31]
+[Document30]
 DocumentPath=LIB\LDQ-M3604RI\LDQ-M3604RI\Project Outputs for LED_clock\LED_clock.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -576,7 +559,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document32]
+[Document31]
 DocumentPath=Docs\PCB_Clock_STM8_Assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -593,7 +576,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZATQNUFR
 
-[Document33]
+[Document32]
 DocumentPath=Docs\PCB_Clock_STM8_Fabrication.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -609,6 +592,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WLICKHGL
+
+[Document33]
+DocumentPath=Docs\Ajax_Auto_OutJob_template.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for PCB_Clock_STM8\Design Rule Check - PCB_Clock_STM8.html
