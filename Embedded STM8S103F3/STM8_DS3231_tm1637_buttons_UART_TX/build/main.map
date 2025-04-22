@@ -1,0 +1,673 @@
+
+Map of build\main.sm8 from link file build\main.lkf - Tue Apr 22 16:13:56 2025
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 00008140 length   192 segment .const
+start 00008150 end 000089d6 length  2182 segment .text
+start 00004000 end 00004000 length     0 segment .eeprom
+start 00000000 end 00000000 length     0 segment .bsct
+start 00000000 end 00000006 length     6 segment .ubsct
+start 00000006 end 00000006 length     0 segment .bit
+start 00000006 end 00000006 length     0 segment .share
+start 00000100 end 00000108 length     8 segment .data, initialized
+start 00008148 end 00008150 length     8 segment .data, from
+start 00000108 end 00000114 length    12 segment .bss
+start 00000000 end 00000315 length   789 segment .info.
+start 00000000 end 00008e2d length 36397 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 00008140 end 00008148 length     8 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8:
+start 00008150 end 000081a0 length    80 section .text
+start 00000108 end 00000108 length     0 section .bss
+start 00000000 end 00000000 length     0 section .ubsct
+start 00000000 end 00000033 length    51 section .info.
+
+build\main.o:
+start 000081a0 end 00008486 length   742 section .text
+start 00000100 end 00000106 length     6 section .data
+start 00000108 end 00000114 length    12 section .bss
+start 00000000 end 00001dae length  7598 section .debug
+start 00000033 end 00000087 length    84 section .info.
+start 00008080 end 00008133 length   179 section .const
+
+build\button.o:
+start 00008486 end 000085a4 length   286 section .text
+start 00000106 end 00000108 length     2 section .data
+start 00001dae end 00003aa5 length  7415 section .debug
+start 00000087 end 000000e1 length    90 section .info.
+
+build\ds3231time.o:
+start 000085a4 end 00008793 length   495 section .text
+start 00003aa5 end 0000586f length  7626 section .debug
+start 000000e1 end 0000013f length    94 section .info.
+start 00008133 end 00008136 length     3 section .const
+
+build\tm1637.o:
+start 00008793 end 00008933 length   416 section .text
+start 0000586f end 000073e1 length  7026 section .debug
+start 0000013f end 00000199 length    90 section .info.
+start 00008136 end 00008140 length    10 section .const
+
+build\uarttx.o:
+start 00008933 end 00008996 length    99 section .text
+start 000073e1 end 00008cc2 length  6369 section .debug
+start 00000199 end 000001f3 length    90 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o:
+start 00000000 end 00000003 length     3 section .ubsct
+start 000001f3 end 00000221 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xymov.o:
+start 00008996 end 000089d5 length    63 section .text
+start 00000221 end 00000250 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o:
+start 00000003 end 00000006 length     3 section .ubsct
+start 00000250 end 0000027e length    46 section .info.
+
+build\stm8_interrupt_vector.o:
+start 000089d5 end 000089d6 length     1 section .text
+start 00008cc2 end 00008e2d length   363 section .debug
+start 0000027e end 000002e3 length   101 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+build\button.o:
+_Button_BothPressed_FirstHour_SecondMinut_WaitRelease        2   (2)
+_Button_BothPressed_FirstMinute_SecondHour_WaitRelease       2   (2)
+_Button_BothReleased                                         2   (2)
+_Button_HourPressed                                          3   (3)
+_Button_Hour_DisableInterrupt                                2   (2)
+_Button_Hour_EnableInterrupt                                 2   (2)
+_Button_Hour_EnsureInterruptEnabled                          4   (2)
+_Button_Hour_WaitRelease                                     2   (2)
+_Button_MinutePressed                                        3   (3)
+_Button_Minute_DisableInterrupt                              2   (2)
+_Button_Minute_EnableInterrupt                               2   (2)
+_Button_Minute_EnsureInterruptEnabled                        4   (2)
+_Button_Minute_WaitRelease                                   2   (2)
+_Buttons_Init                                                2   (2)
+f_EXTI_PORTC_IRQHandler                                 >   14   (12)
+f_EXTI_PORTD_IRQHandler                                 >   14   (12)
+
+build\ds3231time.o:
+L1341_I2C_Cmd                                                2   (2)
+L1441_I2C_GenerateSTOP                                       2   (2)
+L3241_gpio_init                                              2   (2)
+L3341_I2C_Send7bitAddress                                    4   (4)
+L3441_I2C_ReceiveData                                        2   (2)
+L5241_I2CWrite                                              13   (9)
+L5341_I2C_GenerateSTART                                      2   (2)
+L7241_I2CRead                                               13   (9)
+L7341_I2C_SendData                                           2   (2)
+_DS3231_GetTime                                             18   (5)
+_DS3231_SetTime                                         >    5   (5)
+_DS3231_SetTimeManual                                       21   (8)
+_I2CDeinit                                              >    2   (2)
+_I2CInit                                                     4   (2)
+
+build\main.o:
+L1441_CLK_init                                               2   (2)
+L1541_handle_minute_button                                  44   (2)
+L1641_toggle_time_setting_mode                              28   (2)
+L1741_rtc_reorder_bytes                                      2   (2)
+L3441_delay_ms                                               6   (6)
+L3541_uart_write_hex                                        13   (6)
+L3641_set_time                                              26   (5)
+L3741_log_time_over_uart                                    15   (2)
+L5441_update_display_time                                   44   (2)
+L5541_bcd_to_dec                                             4   (4)
+L5641_sync_time_from_ds3231                                 22   (2)
+L7341_init_hardware                                          6   (2)
+L7441_handle_hour_button                                    44   (2)
+L7541_dec_to_bcd                                             4   (4)
+L7641_ds3231_read_raw_time                                  20   (2)
+_main                                                   >   46   (2)
+
+build\stm8_interrupt_vector.o:
+f_NonHandledInterrupt                                   >    6   (6)
+
+build\tm1637.o:
+L1341_tm1637Stop                                             8   (2)
+L3341_tm1637GetAck                                           8   (2)
+L5241_delay_ms_tm1637                                        6   (6)
+L5341_tm1637WriteByte                                       10   (4)
+L7241_tm1637Start                                            8   (2)
+L7341_tm1637Write                                           17   (7)
+_tm1637Init                                                  2   (2)
+_tm1637SetBrightness                                        21   (4)
+_tm1637ShowDigits                                           42   (25)
+
+build\uarttx.o:
+L3241_wait_uart_ready                                        2   (2)
+_uart_init                                                   2   (2)
+_uart_send_char                                         >    5   (3)
+_uart_write                                                  7   (5)
+
+Stack size: 60
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > _DS3231_SetTime: (5)
+
+   2 > _I2CDeinit: (2)
+
+   3 > __stext: (0)
+
+   4 > _main: (2)
+   5      + L1541_handle_minute_button: (2)
+   6      |    + L1641_toggle_time_setting_mode: (2)
+   7      |    |    + L3641_set_time: (5)
+   8      |    |    |    + L7541_dec_to_bcd: (4)
+   9      |    |    |    + _DS3231_SetTimeManual: (8)
+  10      |    |    |    |    + L5241_I2CWrite: (9)
+  11      |    |    |    |    |    + L1341_I2C_Cmd: (2)
+  12      |    |    |    |    |    + L1441_I2C_GenerateSTOP: (2)
+  13      |    |    |    |    |    + L3341_I2C_Send7bitAddress: (4)
+  14      |    |    |    |    |    + L5341_I2C_GenerateSTART: (2)
+  15      |    |    |    |    |    + L7341_I2C_SendData: (2)
+          |    |    |    |    | 
+          |    |    |    | 
+          |    |    | 
+  16      |    |    + _tm1637SetBrightness: (4)
+  17      |    |    |    + L7341_tm1637Write: (7)
+  18      |    |    |    |    + L1341_tm1637Stop: (2)
+  19      |    |    |    |    |    + L5241_delay_ms_tm1637: (6)
+          |    |    |    |    | 
+  20      |    |    |    |    + L3341_tm1637GetAck: (2)
+  21      |    |    |    |    |    + L5241_delay_ms_tm1637 --> 19
+          |    |    |    |    | 
+  22      |    |    |    |    + L5341_tm1637WriteByte: (4)
+  23      |    |    |    |    |    + L5241_delay_ms_tm1637 --> 19
+          |    |    |    |    | 
+  24      |    |    |    |    + L7241_tm1637Start: (2)
+  25      |    |    |    |    |    + L5241_delay_ms_tm1637 --> 19
+          |    |    |    |    | 
+          |    |    |    | 
+          |    |    | 
+          |    | 
+  26      |    + L3441_delay_ms: (6)
+  27      |    + _Button_BothPressed_FirstMinute_SecondHour_WaitRelease: (2)
+  28      |    + _Button_HourPressed: (3)
+  29      |    + _Button_Hour_EnableInterrupt: (2)
+  30      |    + _Button_Hour_WaitRelease: (2)
+  31      |    + _Button_MinutePressed: (3)
+  32      |    + _Button_Minute_EnableInterrupt: (2)
+  33      |    + _Button_Minute_WaitRelease: (2)
+  34      |    + _tm1637ShowDigits: (25)
+  35      |    |    + L7341_tm1637Write --> 17
+          |    | 
+  36      |    + _uart_write: (5)
+  37      |    |    + L3241_wait_uart_ready: (2)
+          |    | 
+          | 
+  38      + L3441_delay_ms --> 26
+  39      + L5441_update_display_time: (2)
+  40      |    + _tm1637ShowDigits --> 34
+          | 
+  41      + L5641_sync_time_from_ds3231: (2)
+  42      |    + L1741_rtc_reorder_bytes: (2)
+  43      |    + L3741_log_time_over_uart: (2)
+  44      |    |    + L3541_uart_write_hex: (6)
+  45      |    |    |    + _uart_write --> 36
+          |    |    | 
+  46      |    |    + _uart_write --> 36
+          |    | 
+  47      |    + L5541_bcd_to_dec: (4)
+  48      |    + L7641_ds3231_read_raw_time: (2)
+  49      |    |    + _DS3231_GetTime: (5)
+  50      |    |    |    + L7241_I2CRead: (9)
+  51      |    |    |    |    + L1341_I2C_Cmd --> 11
+  52      |    |    |    |    + L1441_I2C_GenerateSTOP --> 12
+  53      |    |    |    |    + L3341_I2C_Send7bitAddress --> 13
+  54      |    |    |    |    + L3441_I2C_ReceiveData: (2)
+  55      |    |    |    |    + L5341_I2C_GenerateSTART --> 14
+  56      |    |    |    |    + L7341_I2C_SendData --> 15
+          |    |    |    | 
+          |    |    | 
+          |    | 
+          | 
+  57      + L7341_init_hardware: (2)
+  58      |    + L1441_CLK_init: (2)
+  59      |    + _Buttons_Init: (2)
+  60      |    + _I2CInit: (2)
+  61      |    |    + L3241_gpio_init: (2)
+          |    | 
+  62      |    + _tm1637Init: (2)
+  63      |    + _uart_init: (2)
+          | 
+  64      + L7441_handle_hour_button: (2)
+  65      |    + L1641_toggle_time_setting_mode --> 6
+  66      |    + L3441_delay_ms --> 26
+  67      |    + _Button_BothPressed_FirstHour_SecondMinut_WaitRelease: (2)
+  68      |    + _Button_HourPressed --> 28
+  69      |    + _Button_Hour_EnableInterrupt --> 29
+  70      |    + _Button_Hour_WaitRelease --> 30
+  71      |    + _Button_MinutePressed --> 31
+  72      |    + _Button_Minute_EnableInterrupt --> 32
+  73      |    + _Button_Minute_WaitRelease --> 33
+  74      |    + _tm1637ShowDigits --> 34
+  75      |    + _uart_write --> 36
+          | 
+  76      + _Button_BothReleased: (2)
+  77      + _Button_Hour_EnsureInterruptEnabled: (2)
+  78      |    + _Button_Hour_EnableInterrupt --> 29
+          | 
+  79      + _Button_Minute_EnsureInterruptEnabled: (2)
+  80      |    + _Button_Minute_EnableInterrupt --> 32
+          | 
+  81      + _tm1637SetBrightness --> 16
+  82      + _uart_write --> 36
+       
+  83 > _uart_send_char: (3)
+  84      + L3241_wait_uart_ready --> 37
+       
+  85 > f_EXTI_PORTC_IRQHandler: (12)
+  86      + _Button_Hour_DisableInterrupt: (2)
+       
+  87 > f_EXTI_PORTD_IRQHandler: (12)
+  88      + _Button_Minute_DisableInterrupt: (2)
+       
+  89 > f_NonHandledInterrupt: (6)
+
+  90   L1341_I2C_Cmd --> 11
+
+  91   L1341_tm1637Stop --> 18
+
+  92   L1441_CLK_init --> 58
+
+  93   L1441_I2C_GenerateSTOP --> 12
+
+  94   L1541_handle_minute_button --> 5
+
+  95   L1641_toggle_time_setting_mode --> 6
+
+  96   L1741_rtc_reorder_bytes --> 42
+
+  97   L3241_gpio_init --> 61
+
+  98   L3241_wait_uart_ready --> 37
+
+  99   L3341_I2C_Send7bitAddress --> 13
+
+ 100   L3341_tm1637GetAck --> 20
+
+ 101   L3441_I2C_ReceiveData --> 54
+
+ 102   L3441_delay_ms --> 26
+
+ 103   L3541_uart_write_hex --> 44
+
+ 104   L3641_set_time --> 7
+
+ 105   L3741_log_time_over_uart --> 43
+
+ 106   L5241_I2CWrite --> 10
+
+ 107   L5241_delay_ms_tm1637 --> 19
+
+ 108   L5341_I2C_GenerateSTART --> 14
+
+ 109   L5341_tm1637WriteByte --> 22
+
+ 110   L5441_update_display_time --> 39
+
+ 111   L5541_bcd_to_dec --> 47
+
+ 112   L5641_sync_time_from_ds3231 --> 41
+
+ 113   L7241_I2CRead --> 50
+
+ 114   L7241_tm1637Start --> 24
+
+ 115   L7341_I2C_SendData --> 15
+
+ 116   L7341_init_hardware --> 57
+
+ 117   L7341_tm1637Write --> 17
+
+ 118   L7441_handle_hour_button --> 64
+
+ 119   L7541_dec_to_bcd --> 8
+
+ 120   L7641_ds3231_read_raw_time --> 48
+
+ 121   _Button_BothPressed_FirstHour_SecondMinut_WaitRelease --> 67
+
+ 122   _Button_BothPressed_FirstMinute_SecondHour_WaitRelease --> 27
+
+ 123   _Button_BothReleased --> 76
+
+ 124   _Button_HourPressed --> 28
+
+ 125   _Button_Hour_DisableInterrupt --> 86
+
+ 126   _Button_Hour_EnableInterrupt --> 29
+
+ 127   _Button_Hour_EnsureInterruptEnabled --> 77
+
+ 128   _Button_Hour_WaitRelease --> 30
+
+ 129   _Button_MinutePressed --> 31
+
+ 130   _Button_Minute_DisableInterrupt --> 88
+
+ 131   _Button_Minute_EnableInterrupt --> 32
+
+ 132   _Button_Minute_EnsureInterruptEnabled --> 79
+
+ 133   _Button_Minute_WaitRelease --> 33
+
+ 134   _Buttons_Init --> 59
+
+ 135   _DS3231_GetTime --> 49
+
+ 136   _DS3231_SetTimeManual --> 9
+
+ 137   _I2CInit --> 60
+
+ 138   _tm1637Init --> 62
+
+ 139   _tm1637SetBrightness --> 16
+
+ 140   _tm1637ShowDigits --> 34
+
+ 141   _uart_init --> 63
+
+ 142   _uart_write --> 36
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_ADC_AWCRH                                               0000540e   defined in build\main.o
+_ADC_AWCRL                                               0000540f   defined in build\main.o
+_ADC_AWSRH                                               0000540c   defined in build\main.o
+_ADC_AWSRL                                               0000540d   defined in build\main.o
+_ADC_CR1                                                 00005401   defined in build\main.o
+_ADC_CR2                                                 00005402   defined in build\main.o
+_ADC_CR3                                                 00005403   defined in build\main.o
+_ADC_CSR                                                 00005400   defined in build\main.o
+_ADC_DBR                                                 000053e0   defined in build\main.o
+_ADC_DRH                                                 00005404   defined in build\main.o
+_ADC_DRL                                                 00005405   defined in build\main.o
+_ADC_HTRH                                                00005408   defined in build\main.o
+_ADC_HTRL                                                00005409   defined in build\main.o
+_ADC_LTRH                                                0000540a   defined in build\main.o
+_ADC_LTRL                                                0000540b   defined in build\main.o
+_ADC_TDRH                                                00005406   defined in build\main.o
+_ADC_TDRL                                                00005407   defined in build\main.o
+_AWU_APR                                                 000050f1   defined in build\main.o
+_AWU_CSR1                                                000050f0   defined in build\main.o
+_AWU_TBR                                                 000050f2   defined in build\main.o
+_BEEP_CSR                                                000050f3   defined in build\main.o
+_Button_BothPressed_FirstHour_SecondMinut_WaitRelease    0000850e   defined in build\button.o section .text
+                                                                    used in build\main.o
+_Button_BothPressed_FirstMinute_SecondHour_WaitRelease   000084f9   defined in build\button.o section .text
+                                                                    used in build\main.o
+_Button_BothReleased                                     00008523   defined in build\button.o section .text
+                                                                    used in build\main.o
+_Button_HourPressed                                      000084b7   defined in build\button.o section .text
+                                                                    used in build\main.o
+_Button_Hour_DisableInterrupt                            000084e4   defined in build\button.o section .text
+_Button_Hour_EnableInterrupt                             000084df   defined in build\button.o section .text
+                                                                    used in build\main.o
+_Button_Hour_EnsureInterruptEnabled                      00008536   defined in build\button.o section .text
+                                                                    used in build\main.o
+_Button_Hour_WaitRelease                                 000084e9   defined in build\button.o section .text
+                                                                    used in build\main.o
+_Button_MinutePressed                                    000084c6   defined in build\button.o section .text
+                                                                    used in build\main.o
+_Button_Minute_DisableInterrupt                          000084da   defined in build\button.o section .text
+_Button_Minute_EnableInterrupt                           000084d5   defined in build\button.o section .text
+                                                                    used in build\main.o
+_Button_Minute_EnsureInterruptEnabled                    00008540   defined in build\button.o section .text
+                                                                    used in build\main.o
+_Button_Minute_WaitRelease                               000084f1   defined in build\button.o section .text
+                                                                    used in build\main.o
+_Buttons_Init                                            00008486   defined in build\button.o section .text
+                                                                    used in build\main.o
+_CFG_GCR                                                 00007f60   defined in build\main.o
+_CLK_CANCCR                                              000050cb   defined in build\main.o
+_CLK_CCOR                                                000050c9   defined in build\main.o
+_CLK_CKDIVR                                              000050c6   defined in build\main.o
+_CLK_CMSR                                                000050c3   defined in build\main.o
+_CLK_CSSR                                                000050c8   defined in build\main.o
+_CLK_ECKCR                                               000050c1   defined in build\main.o
+_CLK_HSITRIMR                                            000050cc   defined in build\main.o
+_CLK_ICKCR                                               000050c0   defined in build\main.o
+_CLK_PCKENR1                                             000050c7   defined in build\main.o
+_CLK_PCKENR2                                             000050ca   defined in build\main.o
+_CLK_SWCR                                                000050c5   defined in build\main.o
+_CLK_SWIMCCR                                             000050cd   defined in build\main.o
+_CLK_SWR                                                 000050c4   defined in build\main.o
+_DM_BK1RE                                                00007f90   defined in build\main.o
+_DM_BK1RH                                                00007f91   defined in build\main.o
+_DM_BK1RL                                                00007f92   defined in build\main.o
+_DM_BK2RE                                                00007f93   defined in build\main.o
+_DM_BK2RH                                                00007f94   defined in build\main.o
+_DM_BK2RL                                                00007f95   defined in build\main.o
+_DM_CR1                                                  00007f96   defined in build\main.o
+_DM_CR2                                                  00007f97   defined in build\main.o
+_DM_CSR1                                                 00007f98   defined in build\main.o
+_DM_CSR2                                                 00007f99   defined in build\main.o
+_DM_ENFCTR                                               00007f9a   defined in build\main.o
+_DS3231_GetTime                                          000085a4   defined in build\ds3231time.o section .text
+                                                                    used in build\main.o
+_DS3231_SetTime                                          000085b3   defined in build\ds3231time.o section .text
+_DS3231_SetTimeManual                                    000085b6   defined in build\ds3231time.o section .text
+                                                                    used in build\main.o
+_EXTI_CR1                                                000050a0   defined in build\main.o
+_EXTI_CR2                                                000050a1   defined in build\main.o
+_FLASH_CR1                                               0000505a   defined in build\main.o
+_FLASH_CR2                                               0000505b   defined in build\main.o
+_FLASH_DUKR                                              00005064   defined in build\main.o
+_FLASH_FPR                                               0000505d   defined in build\main.o
+_FLASH_IAPSR                                             0000505f   defined in build\main.o
+_FLASH_NCR2                                              0000505c   defined in build\main.o
+_FLASH_NFPR                                              0000505e   defined in build\main.o
+_FLASH_PUKR                                              00005062   defined in build\main.o
+_I2CDeinit                                               000085fe   defined in build\ds3231time.o section .text
+_I2CInit                                                 000085e3   defined in build\ds3231time.o section .text
+                                                                    used in build\main.o
+_I2C_CCRH                                                0000521c   defined in build\main.o
+_I2C_CCRL                                                0000521b   defined in build\main.o
+_I2C_CR1                                                 00005210   defined in build\main.o
+_I2C_CR2                                                 00005211   defined in build\main.o
+_I2C_DR                                                  00005216   defined in build\main.o
+_I2C_FREQR                                               00005212   defined in build\main.o
+_I2C_ITR                                                 0000521a   defined in build\main.o
+_I2C_OARH                                                00005214   defined in build\main.o
+_I2C_OARL                                                00005213   defined in build\main.o
+_I2C_PECR                                                0000521e   defined in build\main.o
+_I2C_SR1                                                 00005217   defined in build\main.o
+_I2C_SR2                                                 00005218   defined in build\main.o
+_I2C_SR3                                                 00005219   defined in build\main.o
+_I2C_TRISER                                              0000521d   defined in build\main.o
+_ITC_SPR1                                                00007f70   defined in build\main.o
+_ITC_SPR2                                                00007f71   defined in build\main.o
+_ITC_SPR3                                                00007f72   defined in build\main.o
+_ITC_SPR4                                                00007f73   defined in build\main.o
+_ITC_SPR5                                                00007f74   defined in build\main.o
+_ITC_SPR6                                                00007f75   defined in build\main.o
+_ITC_SPR7                                                00007f76   defined in build\main.o
+_ITC_SPR8                                                00007f77   defined in build\main.o
+_IWDG_KR                                                 000050e0   defined in build\main.o
+_IWDG_PR                                                 000050e1   defined in build\main.o
+_IWDG_RLR                                                000050e2   defined in build\main.o
+_PA_CR1                                                  00005003   defined in build\main.o
+_PA_CR2                                                  00005004   defined in build\main.o
+_PA_DDR                                                  00005002   defined in build\main.o
+_PA_IDR                                                  00005001   defined in build\main.o
+_PA_ODR                                                  00005000   defined in build\main.o
+_PB_CR1                                                  00005008   defined in build\main.o
+_PB_CR2                                                  00005009   defined in build\main.o
+_PB_DDR                                                  00005007   defined in build\main.o
+_PB_IDR                                                  00005006   defined in build\main.o
+_PB_ODR                                                  00005005   defined in build\main.o
+_PC_CR1                                                  0000500d   defined in build\main.o
+_PC_CR2                                                  0000500e   defined in build\main.o
+_PC_DDR                                                  0000500c   defined in build\main.o
+_PC_IDR                                                  0000500b   defined in build\main.o
+_PC_ODR                                                  0000500a   defined in build\main.o
+_PD_CR1                                                  00005012   defined in build\main.o
+_PD_CR2                                                  00005013   defined in build\main.o
+_PD_DDR                                                  00005011   defined in build\main.o
+_PD_IDR                                                  00005010   defined in build\main.o
+_PD_ODR                                                  0000500f   defined in build\main.o
+_PE_CR1                                                  00005017   defined in build\main.o
+_PE_CR2                                                  00005018   defined in build\main.o
+_PE_DDR                                                  00005016   defined in build\main.o
+_PE_IDR                                                  00005015   defined in build\main.o
+_PE_ODR                                                  00005014   defined in build\main.o
+_PF_CR1                                                  0000501c   defined in build\main.o
+_PF_CR2                                                  0000501d   defined in build\main.o
+_PF_DDR                                                  0000501b   defined in build\main.o
+_PF_IDR                                                  0000501a   defined in build\main.o
+_PF_ODR                                                  00005019   defined in build\main.o
+_RST_SR                                                  000050b3   defined in build\main.o
+_SPI_CR1                                                 00005200   defined in build\main.o
+_SPI_CR2                                                 00005201   defined in build\main.o
+_SPI_CRCPR                                               00005205   defined in build\main.o
+_SPI_DR                                                  00005204   defined in build\main.o
+_SPI_ICR                                                 00005202   defined in build\main.o
+_SPI_RXCRCR                                              00005206   defined in build\main.o
+_SPI_SR                                                  00005203   defined in build\main.o
+_SPI_TXCRCR                                              00005207   defined in build\main.o
+_SWIM_CSR                                                00007f80   defined in build\main.o
+_TIM1_ARRH                                               00005262   defined in build\main.o
+_TIM1_ARRL                                               00005263   defined in build\main.o
+_TIM1_BKR                                                0000526d   defined in build\main.o
+_TIM1_CCER1                                              0000525c   defined in build\main.o
+_TIM1_CCER2                                              0000525d   defined in build\main.o
+_TIM1_CCMR1                                              00005258   defined in build\main.o
+_TIM1_CCMR2                                              00005259   defined in build\main.o
+_TIM1_CCMR3                                              0000525a   defined in build\main.o
+_TIM1_CCMR4                                              0000525b   defined in build\main.o
+_TIM1_CCR1H                                              00005265   defined in build\main.o
+_TIM1_CCR1L                                              00005266   defined in build\main.o
+_TIM1_CCR2H                                              00005267   defined in build\main.o
+_TIM1_CCR2L                                              00005268   defined in build\main.o
+_TIM1_CCR3H                                              00005269   defined in build\main.o
+_TIM1_CCR3L                                              0000526a   defined in build\main.o
+_TIM1_CCR4H                                              0000526b   defined in build\main.o
+_TIM1_CCR4L                                              0000526c   defined in build\main.o
+_TIM1_CNTRH                                              0000525e   defined in build\main.o
+_TIM1_CNTRL                                              0000525f   defined in build\main.o
+_TIM1_CR1                                                00005250   defined in build\main.o
+_TIM1_CR2                                                00005251   defined in build\main.o
+_TIM1_DTR                                                0000526e   defined in build\main.o
+_TIM1_EGR                                                00005257   defined in build\main.o
+_TIM1_ETR                                                00005253   defined in build\main.o
+_TIM1_IER                                                00005254   defined in build\main.o
+_TIM1_OISR                                               0000526f   defined in build\main.o
+_TIM1_PSCRH                                              00005260   defined in build\main.o
+_TIM1_PSCRL                                              00005261   defined in build\main.o
+_TIM1_RCR                                                00005264   defined in build\main.o
+_TIM1_SMCR                                               00005252   defined in build\main.o
+_TIM1_SR1                                                00005255   defined in build\main.o
+_TIM1_SR2                                                00005256   defined in build\main.o
+_TIM2_ARRH                                               0000530f   defined in build\main.o
+_TIM2_ARRL                                               00005310   defined in build\main.o
+_TIM2_CCER1                                              0000530a   defined in build\main.o
+_TIM2_CCER2                                              0000530b   defined in build\main.o
+_TIM2_CCMR1                                              00005307   defined in build\main.o
+_TIM2_CCMR2                                              00005308   defined in build\main.o
+_TIM2_CCMR3                                              00005309   defined in build\main.o
+_TIM2_CCR1H                                              00005311   defined in build\main.o
+_TIM2_CCR1L                                              00005312   defined in build\main.o
+_TIM2_CCR2H                                              00005313   defined in build\main.o
+_TIM2_CCR2L                                              00005314   defined in build\main.o
+_TIM2_CCR3H                                              00005315   defined in build\main.o
+_TIM2_CCR3L                                              00005316   defined in build\main.o
+_TIM2_CNTRH                                              0000530c   defined in build\main.o
+_TIM2_CNTRL                                              0000530d   defined in build\main.o
+_TIM2_CR1                                                00005300   defined in build\main.o
+_TIM2_EGR                                                00005306   defined in build\main.o
+_TIM2_IER                                                00005303   defined in build\main.o
+_TIM2_PSCR                                               0000530e   defined in build\main.o
+_TIM2_SR1                                                00005304   defined in build\main.o
+_TIM2_SR2                                                00005305   defined in build\main.o
+_TIM4_ARR                                                00005348   defined in build\main.o
+_TIM4_CNTR                                               00005346   defined in build\main.o
+_TIM4_CR1                                                00005340   defined in build\main.o
+_TIM4_EGR                                                00005345   defined in build\main.o
+_TIM4_IER                                                00005343   defined in build\main.o
+_TIM4_PSCR                                               00005347   defined in build\main.o
+_TIM4_SR                                                 00005344   defined in build\main.o
+_UART1_BRR1                                              00005232   defined in build\main.o
+_UART1_BRR2                                              00005233   defined in build\main.o
+_UART1_CR1                                               00005234   defined in build\main.o
+_UART1_CR2                                               00005235   defined in build\main.o
+_UART1_CR3                                               00005236   defined in build\main.o
+_UART1_CR4                                               00005237   defined in build\main.o
+_UART1_CR5                                               00005238   defined in build\main.o
+_UART1_DR                                                00005231   defined in build\main.o
+_UART1_GTR                                               00005239   defined in build\main.o
+_UART1_PSCR                                              0000523a   defined in build\main.o
+_UART1_SR                                                00005230   defined in build\main.o
+_WWDG_CR                                                 000050d1   defined in build\main.o
+_WWDG_WR                                                 000050d2   defined in build\main.o
+__endmem                                                 000001ff   defined in command file
+                                                                    *** not used ***
+__endzp                                                  00000006   defined in command file section .ubsct
+                                                                    used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__idesc__                                                00008140   defined in linker section .init
+                                                                    used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__memory                                                 00000114   defined in command file section .bss
+                                                                    used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__stack                                                  000003ff   defined in command file
+                                                                    used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__startmem                                               00000114   defined in command file section .bss
+                                                                    *** not used ***
+__stext                                                  00008150   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+                                                                    used in build\stm8_interrupt_vector.o
+__vectab                                                 00008000   defined in build\stm8_interrupt_vector.o section .const
+_exit                                                    0000819e   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+_flag_hour                                               00000106   defined in build\button.o section .data, initialized
+_flag_min                                                00000107   defined in build\button.o section .data, initialized
+_main                                                    000081a0   defined in build\main.o section .text
+                                                                    used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+_tm1637Init                                              00008793   defined in build\tm1637.o section .text
+                                                                    used in build\main.o
+_tm1637SetBrightness                                     000087ac   defined in build\tm1637.o section .text
+                                                                    used in build\main.o
+_tm1637ShowDigits                                        000087d4   defined in build\tm1637.o section .text
+                                                                    used in build\main.o
+_uart_init                                               00008933   defined in build\uarttx.o section .text
+                                                                    used in build\main.o
+_uart_send_char                                          00008948   defined in build\uarttx.o section .text
+_uart_write                                              0000895c   defined in build\uarttx.o section .text
+                                                                    used in build\main.o
+c_x                                                      00000000   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o section .ubsct
+                                                                    used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+                                                                            build\button.o
+                                                                            (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xymov.o
+c_xymov                                                  00008996   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xymov.o section .text
+                                                                    used in build\ds3231time.o
+c_y                                                      00000003   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o section .ubsct
+                                                                    used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+                                                                            build\button.o
+f_EXTI_PORTC_IRQHandler                                  0000854a   defined in build\button.o section .text
+                                                                    used in build\stm8_interrupt_vector.o
+f_EXTI_PORTD_IRQHandler                                  00008577   defined in build\button.o section .text
+                                                                    used in build\stm8_interrupt_vector.o
+f_NonHandledInterrupt                                    000089d5   defined in build\stm8_interrupt_vector.o section .text

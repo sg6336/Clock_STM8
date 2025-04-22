@@ -1,0 +1,5409 @@
+[
+    {
+        "baseAddress": "0x5000",
+        "name": "Port A",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "ODR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "ODR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "ODR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "ODR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "ODR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "ODR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "ODR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "ODR7"
+                    }
+                ],
+                "name": "PA_ODR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "IDR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "IDR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "IDR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "IDR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "IDR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "IDR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "IDR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "IDR7"
+                    }
+                ],
+                "name": "PA_IDR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "DDR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "DDR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "DDR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "DDR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "DDR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "DDR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "DDR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "DDR7"
+                    }
+                ],
+                "name": "PA_DDR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "C10"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "C11"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "C12"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "C13"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "C14"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "C15"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "C16"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "C17"
+                    }
+                ],
+                "name": "PA_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "C20"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "C21"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "C22"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "C23"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "C24"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "C25"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "C26"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "C27"
+                    }
+                ],
+                "name": "PA_CR2"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x5005",
+        "name": "Port B",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "ODR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "ODR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "ODR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "ODR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "ODR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "ODR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "ODR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "ODR7"
+                    }
+                ],
+                "name": "PB_ODR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "IDR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "IDR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "IDR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "IDR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "IDR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "IDR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "IDR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "IDR7"
+                    }
+                ],
+                "name": "PB_IDR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "DDR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "DDR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "DDR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "DDR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "DDR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "DDR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "DDR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "DDR7"
+                    }
+                ],
+                "name": "PB_DDR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "C10"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "C11"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "C12"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "C13"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "C14"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "C15"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "C16"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "C17"
+                    }
+                ],
+                "name": "PB_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "C20"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "C21"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "C22"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "C23"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "C24"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "C25"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "C26"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "C27"
+                    }
+                ],
+                "name": "PB_CR2"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x500A",
+        "name": "Port C",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "ODR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "ODR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "ODR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "ODR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "ODR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "ODR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "ODR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "ODR7"
+                    }
+                ],
+                "name": "PC_ODR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "IDR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "IDR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "IDR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "IDR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "IDR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "IDR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "IDR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "IDR7"
+                    }
+                ],
+                "name": "PC_IDR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "DDR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "DDR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "DDR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "DDR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "DDR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "DDR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "DDR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "DDR7"
+                    }
+                ],
+                "name": "PC_DDR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "C10"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "C11"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "C12"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "C13"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "C14"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "C15"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "C16"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "C17"
+                    }
+                ],
+                "name": "PC_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "C20"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "C21"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "C22"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "C23"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "C24"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "C25"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "C26"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "C27"
+                    }
+                ],
+                "name": "PC_CR2"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x500F",
+        "name": "Port D",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "ODR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "ODR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "ODR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "ODR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "ODR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "ODR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "ODR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "ODR7"
+                    }
+                ],
+                "name": "PD_ODR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "IDR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "IDR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "IDR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "IDR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "IDR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "IDR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "IDR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "IDR7"
+                    }
+                ],
+                "name": "PD_IDR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "DDR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "DDR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "DDR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "DDR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "DDR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "DDR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "DDR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "DDR7"
+                    }
+                ],
+                "name": "PD_DDR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "C10"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "C11"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "C12"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "C13"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "C14"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "C15"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "C16"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "C17"
+                    }
+                ],
+                "name": "PD_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "C20"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "C21"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "C22"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "C23"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "C24"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "C25"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "C26"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "C27"
+                    }
+                ],
+                "name": "PD_CR2"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x5014",
+        "name": "Port E",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "ODR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "ODR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "ODR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "ODR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "ODR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "ODR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "ODR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "ODR7"
+                    }
+                ],
+                "name": "PE_ODR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "IDR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "IDR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "IDR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "IDR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "IDR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "IDR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "IDR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "IDR7"
+                    }
+                ],
+                "name": "PE_IDR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "DDR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "DDR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "DDR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "DDR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "DDR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "DDR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "DDR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "DDR7"
+                    }
+                ],
+                "name": "PE_DDR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "C10"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "C11"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "C12"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "C13"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "C14"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "C15"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "C16"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "C17"
+                    }
+                ],
+                "name": "PE_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "C20"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "C21"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "C22"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "C23"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "C24"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "C25"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "C26"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "C27"
+                    }
+                ],
+                "name": "PE_CR2"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x5019",
+        "name": "Port F",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "ODR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "ODR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "ODR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "ODR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "ODR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "ODR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "ODR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "ODR7"
+                    }
+                ],
+                "name": "PF_ODR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "IDR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "IDR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "IDR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "IDR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "IDR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "IDR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "IDR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "IDR7"
+                    }
+                ],
+                "name": "PF_IDR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "DDR0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "DDR1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "DDR2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "DDR3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "DDR4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "DDR5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "DDR6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "DDR7"
+                    }
+                ],
+                "name": "PF_DDR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "C10"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "C11"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "C12"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "C13"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "C14"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "C15"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "C16"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "C17"
+                    }
+                ],
+                "name": "PF_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "C20"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "C21"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "C22"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "C23"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "C24"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "C25"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "C26"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "C27"
+                    }
+                ],
+                "name": "PF_CR2"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x505A",
+        "name": "Flash",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "FIX"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "IE"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "AHALT"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "HALT"
+                    }
+                ],
+                "name": "FLASH_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "PRG"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 3,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "FPRG"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "ERASE"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "WPRG"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "OPT"
+                    }
+                ],
+                "name": "FLASH_CR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "NPRG"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 3,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "NFPRG"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "NERASE"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "NWPRG"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "NOPT"
+                    }
+                ],
+                "name": "FLASH_NCR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "WPB0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "WPB1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "WPB2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "WPB3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "WPB4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "WPB5"
+                    }
+                ],
+                "name": "FLASH_FPR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "NWPB0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "NWPB1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "NWPB2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "NWPB3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "NWPB4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "NWPB5"
+                    }
+                ],
+                "name": "FLASH_NFPR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "WR_PG_DIS"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "PUL"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "EOP"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "DUL"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "HVOFF"
+                    }
+                ],
+                "name": "FLASH_IAPSR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "FLASH_PUKR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "FLASH_DUKR"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x50A0",
+        "name": "ITC",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "PAIS"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 2,
+                        "name": "PBIS"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": "PCIS"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 2,
+                        "name": "PDIS"
+                    }
+                ],
+                "name": "EXTI_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "PEIS"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "TLIS"
+                    }
+                ],
+                "name": "EXTI_CR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "WWDGF"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "IWDGF"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "ILLOPF"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "SWIMF"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "EMCF"
+                    }
+                ],
+                "name": "RST_SR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "VECT0SPR"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 2,
+                        "name": "VECT1SPR"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": "VECT2SPR"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 2,
+                        "name": "VECT3SPR"
+                    }
+                ],
+                "name": "ITC_SPR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "VECT4SPR"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 2,
+                        "name": "VECT5SPR"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": "VECT6SPR"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 2,
+                        "name": "VECT7SPR"
+                    }
+                ],
+                "name": "ITC_SPR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "VECT8SPR"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 2,
+                        "name": "VECT9SPR"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": "VECT10SPR"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 2,
+                        "name": "VECT11SPR"
+                    }
+                ],
+                "name": "ITC_SPR3"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "VECT12SPR"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 2,
+                        "name": "VECT13SPR"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": "VECT14SPR"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 2,
+                        "name": "VECT15SPR"
+                    }
+                ],
+                "name": "ITC_SPR4"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "VECT16SPR"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 2,
+                        "name": "VECT17SPR"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": "VECT18SPR"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 2,
+                        "name": "VECT19SPR"
+                    }
+                ],
+                "name": "ITC_SPR5"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "VECT20SPR"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 2,
+                        "name": "VECT21SPR"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": "VECT22SPR"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 2,
+                        "name": "VECT23SPR"
+                    }
+                ],
+                "name": "ITC_SPR6"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "VECT24SPR"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 2,
+                        "name": "VECT25SPR"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": "VECT26SPR"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 2,
+                        "name": "VECT27SPR"
+                    }
+                ],
+                "name": "ITC_SPR7"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "VECT28SPR"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 2,
+                        "name": "VECT29SPR"
+                    }
+                ],
+                "name": "ITC_SPR8"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x50C0",
+        "name": "CLK",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "HSIEN"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "HSIRDY"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "FHW"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "LSIEN"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "LSIRDY"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "REGAH"
+                    }
+                ],
+                "name": "CLK_ICKR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "HSEEN"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "HSERDY"
+                    }
+                ],
+                "name": "CLK_ECKR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CLK_CMSR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CLK_SWR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "SWBSY"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "SWEN"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "SWIEN"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "SWIF"
+                    }
+                ],
+                "name": "CLK_SWCR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 3,
+                        "name": "CPUDIV"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 2,
+                        "name": "HSIDIV"
+                    }
+                ],
+                "name": "CLK_CKDIVR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CLK_PCKENR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "CSSEN"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "AUX"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "CSSDIE"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "CSSD"
+                    }
+                ],
+                "name": "CLK_CSSR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "CCOEN"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 4,
+                        "name": "CCOSEL"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "CCORDY"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "CC0BSY"
+                    }
+                ],
+                "name": "CLK_CCOR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CLK_PCKENR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 3,
+                        "name": "CANDIV"
+                    }
+                ],
+                "name": "CLK_CANCCR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 4,
+                        "name": "HSITRIM"
+                    }
+                ],
+                "name": "CLK_HSITRIMR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "SWIMCLK"
+                    }
+                ],
+                "name": "CLK_SWIMCCR"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x50D1",
+        "name": "WWDG",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "T0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "T1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "T2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "T3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "T4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "T5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "T6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "WDGA"
+                    }
+                ],
+                "name": "WWDG_CR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "W0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "W1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "W2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "W3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "W4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "W5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "W6"
+                    }
+                ],
+                "name": "WWDG_WR"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x50E0",
+        "name": "IWDG",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "IWDG_KR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 3,
+                        "name": "PR"
+                    }
+                ],
+                "name": "IWDG_PR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "IWDG_RLR"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x50F0",
+        "name": "AWU",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "MSR"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 3,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "AWUEN"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "AWUF"
+                    }
+                ],
+                "name": "AWU_CSR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 6,
+                        "name": "APR"
+                    }
+                ],
+                "name": "AWU_APR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 4,
+                        "name": "AWUTB"
+                    }
+                ],
+                "name": "AWU_TBR"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x50F3",
+        "name": "BEEP",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 5,
+                        "name": "BEEPDIV"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "BEEPEN"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 2,
+                        "name": "BEEPSEL"
+                    }
+                ],
+                "name": "BEEP_CSR"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x5200",
+        "name": "SPI",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "CPHA"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CPOL"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "MSTR"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 3,
+                        "name": "BR"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "SPE"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "LSBFIRST"
+                    }
+                ],
+                "name": "SPI_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "SSI"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "SSM"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "RXONLY"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "CRCNEXT"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "CECEN"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "BDOE"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "BDM"
+                    }
+                ],
+                "name": "SPI_CR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 4,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "WKIE"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "ERRIE"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "RXIE"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "TXIE"
+                    }
+                ],
+                "name": "SPI_ICR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "RXNE"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "TXE"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "WKUP"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "CRCERR"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "MODF"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "OVR"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "BSY"
+                    }
+                ],
+                "name": "SPI_SR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "SPI_DR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "SPI_CRCPR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "SPI_RXCRCR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "SPI_TXCRCR"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x5210",
+        "name": "I2C",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "PE"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 5,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "ENGC"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "NOSTRETCH"
+                    }
+                ],
+                "name": "I2C_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "START"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "STOP"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "ACK"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "POS"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 3,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "SWRST"
+                    }
+                ],
+                "name": "I2C_CR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 6,
+                        "name": "FREQ"
+                    }
+                ],
+                "name": "I2C_FREQR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "ADD0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 7,
+                        "name": "ADD"
+                    }
+                ],
+                "name": "I2C_OARL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 2,
+                        "name": "ADD"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 3,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "ADDCONF"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "ADDMODE"
+                    }
+                ],
+                "name": "I2C_OARH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "I2C_DR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "SB"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "ADDR"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "BTF"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "ADD10"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "STOPF"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "RXNE"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "TXE"
+                    }
+                ],
+                "name": "I2C_SR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "BERR"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "ARLO"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "AF"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OVR"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "WUFH"
+                    }
+                ],
+                "name": "I2C_SR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "MSL"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "BUSY"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "TRA"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "GENCALL"
+                    }
+                ],
+                "name": "I2C_SR3"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "ITERREN"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "ITEVTEN"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "ITBUFEN"
+                    }
+                ],
+                "name": "I2C_ITR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "I2C_CCRL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 4,
+                        "name": "CCR"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "DUTY"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "F_S"
+                    }
+                ],
+                "name": "I2C_CCRH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 6,
+                        "name": "TRISE"
+                    }
+                ],
+                "name": "I2C_TRISER"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "I2C_PECR"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x5230",
+        "name": "UART1",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "PE"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "FE"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "NF"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OR_LHE"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "IDLE"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "RXNE"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "TC"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "TXE"
+                    }
+                ],
+                "name": "UART1_SR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "UART1_DR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "UART1_BRR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "UART1_BRR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "PIEN"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "PS"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "PCEN"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "WAKE"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "M"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "UART0"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "T8"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "R8"
+                    }
+                ],
+                "name": "UART1_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "SBK"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "RWU"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "REN"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "TEN"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "ILIEN"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "RIEN"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "TCIEN"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "TIEN"
+                    }
+                ],
+                "name": "UART1_CR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "LBCL"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CPHA"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "CPOL"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "CKEN"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": "STOP"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "LINEN"
+                    }
+                ],
+                "name": "UART1_CR3"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 4,
+                        "name": "ADD"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "LBDF"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "LBDL"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "LBDIEN"
+                    }
+                ],
+                "name": "UART1_CR4"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "IREN"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "IRLP"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "HDSEL"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "NACK"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "SCEN"
+                    }
+                ],
+                "name": "UART1_CR5"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "UART1_GTR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "UART1_PSCR"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x5250",
+        "name": "TIM1",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "CEN"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "UDIS"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "URS"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OPM"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "DIR"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 2,
+                        "name": "CMS"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "ARPE"
+                    }
+                ],
+                "name": "TIM1_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "CCPG"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "COMS"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 3,
+                        "name": "MMS"
+                    }
+                ],
+                "name": "TIM1_CR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 3,
+                        "name": "SMS"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 3,
+                        "name": "TS"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "MSM"
+                    }
+                ],
+                "name": "TIM1_SMCR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 4,
+                        "name": "ETF"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": "ETPS"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "ECE"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "ETP"
+                    }
+                ],
+                "name": "TIM1_ETR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "UIE"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CC1IE"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "CC2IE"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "CC3IE"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "CC4IE"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "COMIE"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "TIE"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "BIE"
+                    }
+                ],
+                "name": "TIM1_IER"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "UIF"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CC1IF"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "CC2IF"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "CC3IF"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "CC4IF"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "COMIF"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "TIF"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "BIF"
+                    }
+                ],
+                "name": "TIM1_SR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CC1OF"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "CC2OF"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "CC3OF"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "CC4OF"
+                    }
+                ],
+                "name": "TIM1_SR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "UG"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CC1G"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "CC2G"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "CC3G"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "CC4G"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "COMG"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "TG"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "BG"
+                    }
+                ],
+                "name": "TIM1_EGR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "CC1S"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "OC1FE"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OC1PE"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 3,
+                        "name": "OC1M"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "OC1CE"
+                    }
+                ],
+                "name": "TIM1_CCMR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "CC2S"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "OC2FE"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OC2PE"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 3,
+                        "name": "OC2M"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "OC2CE"
+                    }
+                ],
+                "name": "TIM1_CCMR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "CC3S"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "OC3FE"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OC3PE"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 3,
+                        "name": "OC3M"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "OC3CE"
+                    }
+                ],
+                "name": "TIM1_CCMR3"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "CC4S"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "OC4FE"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OC4PE"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 3,
+                        "name": "OC4M"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "OC4CE"
+                    }
+                ],
+                "name": "TIM1_CCMR4"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "CC1E"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CC1P"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "CC1NE"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "CC1NP"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "CC2E"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "CC2P"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "CC2NE"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "CC2NP"
+                    }
+                ],
+                "name": "TIM1_CCER1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "CC3E"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CC3P"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "CC3NE"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "CC3NP"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "CC4E"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "CC4P"
+                    }
+                ],
+                "name": "TIM1_CCER2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_CNTRH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_CNTRL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_PSCRH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_PSCRL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_ARRH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_ARRL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_RCR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_CCR1H"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_CCR1L"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_CCR2H"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_CCR2L"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_CCR3H"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_CCR3L"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_CCR4H"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_CCR4L"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "LOCK"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "OSSI"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OSSR"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "BKE"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "BKP"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "AOE"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "MOE"
+                    }
+                ],
+                "name": "TIM1_BKR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM1_DTR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "OIS1"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "OIS1N"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "OIS2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OIS2N"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "OIS3"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "OIS3N"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "OIS4"
+                    }
+                ],
+                "name": "TIM1_OISR"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x5300",
+        "name": "TIM2",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "CEN"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "UDIS"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "URS"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OPM"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 3,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "ARPE"
+                    }
+                ],
+                "name": "TIM2_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "UIE"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CC1IE"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "CC2IE"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "CC3IE"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "TIE"
+                    }
+                ],
+                "name": "TIM2_IER"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "UIF"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CC1IF"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "CC2IF"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "CC3IF"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "TIF"
+                    }
+                ],
+                "name": "TIM2_SR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CC1OF"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "CC2OF"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "CC3OF"
+                    }
+                ],
+                "name": "TIM2_SR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "UG"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CC1G"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "CC2G"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "CC3G"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "TG"
+                    }
+                ],
+                "name": "TIM2_EGR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "CC1S"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OC1PE"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 3,
+                        "name": "OC1M"
+                    }
+                ],
+                "name": "TIM2_CCMR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "CC2S"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OC2PE"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 3,
+                        "name": "OC2M"
+                    }
+                ],
+                "name": "TIM2_CCMR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "CC3S"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OC3PE"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 3,
+                        "name": "OC3M"
+                    }
+                ],
+                "name": "TIM2_CCMR3"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "CC1E"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CC1P"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 2,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "CC2E"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "CC2P"
+                    }
+                ],
+                "name": "TIM2_CCER1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "CC3E"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CC3P"
+                    }
+                ],
+                "name": "TIM2_CCER2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM2_CNTRH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM2_CNTRL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 4,
+                        "name": "PSC"
+                    }
+                ],
+                "name": "TIM2_PSCR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM2_ARRH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM2_ARRL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM2_CCR1H"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM2_CCR1L"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM2_CCR2H"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM2_CCR2L"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM2_CCR3H"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM2_CCR3L"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x5340",
+        "name": "TIM4",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "CEN"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "UDIS"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "URS"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "OPM"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 3,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "ARPE"
+                    }
+                ],
+                "name": "TIM4_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "UIE"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 5,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "TIE"
+                    }
+                ],
+                "name": "TIM4_IER"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "UIF"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 5,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "TIF"
+                    }
+                ],
+                "name": "TIM4_SR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "UG"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 5,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "TG"
+                    }
+                ],
+                "name": "TIM4_EGR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM4_CNTR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 3,
+                        "name": "PSC"
+                    }
+                ],
+                "name": "TIM4_PSCR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "TIM4_ARR"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x53E0",
+        "name": "ADC1",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB0RH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB0RL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB1RH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB1RL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB2RH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB2RL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB3RH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB3RL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB4RH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB4RL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB5RH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB5RL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB6RH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB6RL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB7RH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB7RL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB8RH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB8RL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB9RH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DB9RL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 4,
+                        "name": "CH"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "AWDIE"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "EOCIE"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "AWD"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "EOC"
+                    }
+                ],
+                "name": "ADC_CSR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "ADON"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "CONT"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 2,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 3,
+                        "name": "SPSEL"
+                    }
+                ],
+                "name": "ADC_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "SCAN"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "ALIGN"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 2,
+                        "name": "EXTSEL"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "EXTTRIG"
+                    }
+                ],
+                "name": "ADC_CR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 6,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "OVR"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "DBUF"
+                    }
+                ],
+                "name": "ADC_CR3"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DRH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_DRL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_TDRH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_TDRL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_HTRH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "HT"
+                    }
+                ],
+                "name": "ADC_HTRL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "ADC_LTRH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 2,
+                        "name": "LT"
+                    }
+                ],
+                "name": "ADC_LTRL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "AWS8"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "AWS9"
+                    }
+                ],
+                "name": "ADC_AWSRH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "AWS0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "AWS1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "AWS2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "AWS3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "AWS4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "AWS5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "AWS6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "AWS7"
+                    }
+                ],
+                "name": "ADC_AWSRL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "AWEN8"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "AWEN9"
+                    }
+                ],
+                "name": "ADC_AWCRH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "AWEN0"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "AWEN1"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "AWEN2"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "AWEN3"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "AWEN4"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "AWEN5"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": "AWEN6"
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "AWEN7"
+                    }
+                ],
+                "name": "ADC_AWCRL"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x7F00",
+        "name": "CPU",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CPU_A"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CPU_PCE"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CPU_PCH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CPU_PCL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CPU_XH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CPU_XL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CPU_YH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CPU_YL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CPU_SPH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "CPU_SPL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "C"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "Z"
+                    },
+                    {
+                        "bitsOffset": 2,
+                        "bitsWidth": 1,
+                        "name": "NF"
+                    },
+                    {
+                        "bitsOffset": 3,
+                        "bitsWidth": 1,
+                        "name": "I0"
+                    },
+                    {
+                        "bitsOffset": 4,
+                        "bitsWidth": 1,
+                        "name": "H"
+                    },
+                    {
+                        "bitsOffset": 5,
+                        "bitsWidth": 1,
+                        "name": "I1"
+                    },
+                    {
+                        "bitsOffset": 6,
+                        "bitsWidth": 1,
+                        "name": ""
+                    },
+                    {
+                        "bitsOffset": 7,
+                        "bitsWidth": 1,
+                        "name": "V"
+                    }
+                ],
+                "name": "CPU_CCR"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 1,
+                        "name": "SWO"
+                    },
+                    {
+                        "bitsOffset": 1,
+                        "bitsWidth": 1,
+                        "name": "AL"
+                    }
+                ],
+                "name": "CPU_CFG_GCR"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x7F80",
+        "name": "SWIM",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "SWIM_CSR"
+            }
+        ]
+    },
+    {
+        "baseAddress": "0x7F90",
+        "name": "DM",
+        "registers": [
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "DM_BK1RE"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "DM_BK1RH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "DM_BK1RL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "DM_BK2RE"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "DM_BK2RH"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "DM_BK2RL"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "DM_CR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "DM_CR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "DM_CSR1"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "DM_CSR2"
+            },
+            {
+                "bytes": 1,
+                "fields": [
+                    {
+                        "bitsOffset": 0,
+                        "bitsWidth": 8,
+                        "name": "Data"
+                    }
+                ],
+                "name": "DM_ENFCTR"
+            }
+        ]
+    }
+]
