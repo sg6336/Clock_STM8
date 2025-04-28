@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "business_logic.h": "c",
+        "iostm8s103.h": "c",
+        "ds3231time.h": "c",
+        "tm1637.h": "c",
+        "uarttx.h": "c",
+        "button.h": "c",
+        "logger.h": "c",
+        "button_handlers.h": "c",
+        "display.h": "c"
+    }
+}
