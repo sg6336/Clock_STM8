@@ -8,6 +8,9 @@
         "button.h": "c",
         "logger.h": "c",
         "button_handlers.h": "c",
-        "display.h": "c"
+        "display.h": "c",
+        "clock.h": "c",
+        "system_init.h": "c",
+        "input.h": "c"
     }
 }

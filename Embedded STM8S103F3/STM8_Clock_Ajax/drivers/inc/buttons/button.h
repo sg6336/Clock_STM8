@@ -134,6 +134,17 @@ uint8_t Button_BothPressed_FirstHour_SecondMinut_WaitRelease(void);
  */
 uint8_t Button_BothReleased(void);
 
+/**
+ * @brief Checks if both buttons are currently pressed (logic HIGH on both pins).
+ *
+ * This function returns 1 if both the Hour button (PC3) and the Minute button (PD2)
+ * are pressed at the moment — that is, both input pins are at logic HIGH,
+ * which is the idle state when using external pull-down resistors.
+ *
+ * @return 1 if both buttons are pressed, 0 otherwise.
+ */
+uint8_t Button_BothPressed(void);
+
 // ============================================================================
 // === Watchdog Safety Functions ==============================================
 // ============================================================================

@@ -2,6 +2,12 @@
 
 #include <stdint.h>
 
+// =============================================================================
+//     Defines
+// =============================================================================
+#define HOURS_IN_DAY 24
+#define MINUTES_IN_HOUR 60
+
 /**
  * @brief Struct representing clock time.
  */

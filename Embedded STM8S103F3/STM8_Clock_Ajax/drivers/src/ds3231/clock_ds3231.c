@@ -26,14 +26,14 @@ static uint8_t rtc_buf[RTC_BUF_SIZE];
 // =============================================================================
 //     Static Function Prototypes
 // =============================================================================
-static void set_time(void);
-static void sync_time_from_ds3231(void);
-static void ds3231_read_raw_time(void);
-static void rtc_reorder_bytes(void);
-static void log_time_over_uart(void);
-static void uart_write_hex(uint8_t val);
-static uint8_t bcd_to_dec(uint8_t bcd);
-static uint8_t dec_to_bcd(uint8_t dec);
+static void _set_time(void);
+static void _sync_time_from_ds3231(void);
+static void _ds3231_read_raw_time(void);
+static void _rtc_reorder_bytes(void);
+static void _log_time_over_uart(void);
+static void _uart_write_hex(uint8_t val);
+static uint8_t _bcd_to_dec(uint8_t bcd);
+static uint8_t _dec_to_bcd(uint8_t dec);
 
 // ============================================================================
 //     Public API functions
@@ -46,12 +46,24 @@ void clock_init(void) // Initialize I2C (SDA: PB5, SCL: PB4) for DS3231
 
 void get_time_from_clock(void)
 {
-    sync_time_from_ds3231();
+    _sync_time_from_ds3231();
 }
 
 void set_time_to_clock(/* uint8_t hours, uint8_t min, uint8_t secs */)
 {
-    set_time();
+    _set_time();
+}
+
+void add_one_minute(void)
+{
+    current_time.minutes++;
+    current_time.minutes %= MINUTES_IN_HOUR;
+}
+
+void add_one_hour(void)
+{
+    current_time.hours++;
+    current_time.hours %= HOURS_IN_DAY;
 }
 
 // ============================================================================
@@ -62,7 +74,7 @@ void set_time_to_clock(/* uint8_t hours, uint8_t min, uint8_t secs */)
  *
  * This function is called when exiting time setting mode.
  */
-static void set_time()
+static void _set_time()
 {
     uint8_t hours_bcd;
     uint8_t minutes_bcd;
@@ -72,24 +84,24 @@ static void set_time()
     min = current_time.minutes;
     secs = current_time.seconds;
 
-    hours_bcd = dec_to_bcd(hours);
-    minutes_bcd = dec_to_bcd(min);
-    seconds_bcd = dec_to_bcd(secs);
+    hours_bcd = _dec_to_bcd(hours);
+    minutes_bcd = _dec_to_bcd(min);
+    seconds_bcd = _dec_to_bcd(secs);
     DS3231_SetTimeManual(hours_bcd, minutes_bcd, seconds_bcd);
 }
 
 /**
  * @brief Reads time from DS3231 and loads it into the global `hours`, `min`, `secs`.
  */
-static void sync_time_from_ds3231(void)
+static void _sync_time_from_ds3231(void)
 {
-    ds3231_read_raw_time();
-    rtc_reorder_bytes();
-    log_time_over_uart();
+    _ds3231_read_raw_time();
+    _rtc_reorder_bytes();
+    _log_time_over_uart();
 
-    hours = bcd_to_dec(rtc_buf[0]);
-    min = bcd_to_dec(rtc_buf[1]);
-    secs = bcd_to_dec(rtc_buf[2]);
+    hours = _bcd_to_dec(rtc_buf[0]);
+    min = _bcd_to_dec(rtc_buf[1]);
+    secs = _bcd_to_dec(rtc_buf[2]);
 
     current_time.hours = hours;
     current_time.minutes = min;
@@ -99,7 +111,7 @@ static void sync_time_from_ds3231(void)
 /**
  * @brief Read raw time bytes from DS3231 into rtc_buf.
  */
-static void ds3231_read_raw_time(void)
+static void _ds3231_read_raw_time(void)
 {
     DS3231_GetTime(rtc_buf, RTC_BUF_SIZE);
 }
@@ -107,7 +119,7 @@ static void ds3231_read_raw_time(void)
 /**
  * @brief Reorder rtc_buf so that hours is at index 0.
  */
-static void rtc_reorder_bytes(void)
+static void _rtc_reorder_bytes(void)
 {
     static uint8_t tmp;
 
@@ -119,14 +131,14 @@ static void rtc_reorder_bytes(void)
 /**
  * @brief Print time to UART in hex format (HH:MM:SS).
  */
-static void log_time_over_uart(void)
+static void _log_time_over_uart(void)
 {
     logger_write("Time: ");
-    uart_write_hex(rtc_buf[0]);
+    _uart_write_hex(rtc_buf[0]);
     logger_write(":");
-    uart_write_hex(rtc_buf[1]);
+    _uart_write_hex(rtc_buf[1]);
     logger_write(":");
-    uart_write_hex(rtc_buf[2]);
+    _uart_write_hex(rtc_buf[2]);
     logger_write("\r\n");
 }
 
@@ -143,7 +155,7 @@ static void log_time_over_uart(void)
  * @param val The byte value (0–255) to convert and send over UART.
  * @note This is a debug function, use only for diagnostics
  */
-static void uart_write_hex(uint8_t val)
+static void _uart_write_hex(uint8_t val)
 {
     char hex[3];
     static const char *hex_digits = "0123456789ABCDEF";
@@ -162,7 +174,7 @@ static void uart_write_hex(uint8_t val)
  * @param bcd BCD-encoded byte
  * @return Decimal value
  */
-static uint8_t bcd_to_dec(uint8_t bcd)
+static uint8_t _bcd_to_dec(uint8_t bcd)
 {
     return ((bcd >> 4) * 10) + (bcd & 0x0F);
 }
@@ -175,7 +187,7 @@ static uint8_t bcd_to_dec(uint8_t bcd)
  * @param dec Decimal value (0–99)
  * @return BCD-encoded byte
  */
-static uint8_t dec_to_bcd(uint8_t dec)
+static uint8_t _dec_to_bcd(uint8_t dec)
 {
     return ((dec / 10) << 4) | (dec % 10);
 }

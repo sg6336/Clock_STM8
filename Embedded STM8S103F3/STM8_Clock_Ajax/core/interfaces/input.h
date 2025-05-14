@@ -38,36 +38,43 @@ uint8_t button_both_is_pressed_first_minute_second_hour(void);
 uint8_t button_both_is_released(void);
 
 /**
- * @brief Wait until the Minute button is released.
+ * @brief Finalizes processing of the Minute button press.
+ *
+ * Waits until the Minute button is released, clears the pending flag (if still set),
+ * applies a software debounce delay, and re-enables the EXTI interrupt for the button.
+ *
+ * This function is typically called after handling a button-triggered event to reset
+ * the button state and allow detection of the next press.
+ *
+ * @see button_minute_wait_release()
+ * @see button_clear_minute_flag()
+ * @see button_debounce()
+ * @see button_enable_minute_interrupt()
  */
-void button_minute_wait_release(void);
+void button_minute_wait_release_and_clear_flag_and_debounce_and_enable_minute_interrupt(void);
 
 /**
- * @brief Clear the minute button press flag.
+ * @brief Finalizes processing of the Hour button press.
+ *
+ * Waits until the Hour button is released, clears the pending flag (if still set),
+ * applies a software debounce delay, and re-enables the EXTI interrupt for the button.
+ *
+ * This function is typically called after handling a button-triggered event to reset
+ * the button state and allow detection of the next press.
+ *
+ * @see button_hour_wait_release()
+ * @see button_clear_hour_flag()
+ * @see button_debounce()
+ * @see button_enable_hour_interrupt()
  */
-void button_clear_minute_flag(void); // TODO: запихнути в button_minute_wait_release();
+void button_hour_wait_release_and_clear_flag_and_debounce_and_enable_hour_interrupt(void);
 
 /**
  * @brief Enable EXTI interrupt for Minute button.
  */
-void button_enable_minute_interrupt(void); // TODO: запихнути в button_minute_wait_release();
-
-/**
- * @brief Wait until the Hour button is released.
- */
-void button_hour_wait_release(void);
-
-/**
- * @brief Clear the hour button press flag.
- */
-void button_clear_hour_flag(void); // TODO: запихнути в button_hour_wait_release();
+void button_enable_minute_interrupt(void);
 
 /**
  * @brief Enable EXTI interrupt for Hour button.
  */
-void button_enable_hour_interrupt(void); // TODO: запихнути в button_hour_wait_release();
-
-/**
- * @brief Simple software debounce delay for buttons.
- */
-void button_debounce(void); // TODO: запихнути в button_hour_wait_release(); та button_minute_wait_release();
+void button_enable_hour_interrupt(void);

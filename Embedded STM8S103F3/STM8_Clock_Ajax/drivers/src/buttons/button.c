@@ -165,6 +165,15 @@ uint8_t Button_BothReleased(void)
     return 0;
 }
 
+uint8_t Button_BothPressed(void)
+{
+    if ((PC_IDR & (1 << BTN_HOUR_PIN)) && (PD_IDR & (1 << BTN_MIN_PIN)))
+    {
+        return 1;
+    }
+    return 0;
+}
+
 // ============================================================================
 // === Watchdog Safety Functions ==============================================
 // ============================================================================

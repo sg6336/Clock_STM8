@@ -1,3 +1,4 @@
+```
 project-root/
 │
 ├── config/
@@ -37,9 +38,9 @@ project-root/
 ├── .vscode/                    # Налаштування для VS Code
 │
 └── README.md
-
+```
 Структура взаємодії:
-
+```
 [core/] (бізнес логіка)
      ⬇
 [interfaces/] (контракт)
@@ -49,4 +50,5 @@ project-root/
 [hal/] (виклики до регістрів)
      ⬇
 [iostm8s103.h] (реєстри STM8)
+```
 

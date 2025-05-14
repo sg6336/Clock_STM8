@@ -30,7 +30,9 @@ crtsi0.sm8
 #<BEGIN OBJECT_FILES>
 build\business_logic.o
 build\button.o
-build\button_handlers.o
+build\button_events.o
+#build\button_handlers.o
+build\I2C.o
 build\clock_ds3231.o
 build\delay.o
 build\display_tm1637.o
@@ -41,6 +43,7 @@ build\logger_uart.o
 build\main.o
 #main_old.o
 build\system_init.o
+build\tm1637_proto.o
 build\tm1637.o
 build\uartTX.o
 #<END OBJECT_FILES>

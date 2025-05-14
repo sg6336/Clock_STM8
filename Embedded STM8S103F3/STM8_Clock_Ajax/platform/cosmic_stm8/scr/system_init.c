@@ -11,14 +11,14 @@
 // =============================================================================
 //     Static Function Prototypes
 // =============================================================================
-static void CLK_init(void);
+static void _CLK_init(void);
 
 // ============================================================================
 //     Public API functions
 // ============================================================================
 void init_hardware()
 {
-    CLK_init(); // Initialize system clock to 16 MHz using internal HSI oscillator
+    _CLK_init(); // Initialize system clock to 16 MHz using internal HSI oscillator
 
     clock_init();   // Initialize I2C (SDA: PB5, SCL: PB4) for DS3231
     display_init(); // Initialize TM1637 clock and data pins (PC5 and PC6)
@@ -34,7 +34,7 @@ void init_hardware()
 /**
  * @brief Initialize system clock to 16 MHz using internal HSI oscillator.
  */
-static void CLK_init()
+static void _CLK_init()
 {
     CLK_SWR = 0xE1;      // select HSI as the clock source
     CLK_SWCR = (1 << 1); // enable switching (SWEN = 1)

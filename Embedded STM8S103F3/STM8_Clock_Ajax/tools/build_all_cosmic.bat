@@ -75,9 +75,11 @@ echo Building main.ihx file...
 chex -o build/main.ihx build/main.sm8
 
 echo Building main.elf file...
+echo --------------------------------  
 :: Створили файлу main.elf з файлу sm8:
 cvdwarf.exe -o build/main.elf -v build/main.sm8
 
+echo --------------------------------
 echo Done!
 :: pause
 

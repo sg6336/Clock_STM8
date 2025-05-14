@@ -50,7 +50,7 @@
 // =============================================================================
 //     Static Function Prototypes
 // =============================================================================
-static void wait_uart_ready(void);
+static void _wait_uart_ready(void);
 
 // ============================================================================
 //     Public API functions
@@ -77,7 +77,7 @@ void uart_init(void)
 void uart_send_char(char c)
 {
     // while (!(UART1_SR & UART1_SR_TXE));  // Wait until ready
-    wait_uart_ready();
+    _wait_uart_ready();
     UART1_DR = c;
     while (!(UART1_SR & UART1_SR_TC))
     {
@@ -92,7 +92,7 @@ int uart_write(const char *str)
     while (str[i] != '\0')
     {
         // while (!(UART1_SR & UART1_SR_TXE));
-        wait_uart_ready();
+        _wait_uart_ready();
         UART1_DR = str[i++];
         while (!(UART1_SR & UART1_SR_TC))
         {
@@ -113,7 +113,7 @@ int uart_write(const char *str)
  *
  * @note This is a blocking call. Use with care in time-critical loops.
  */
-static void wait_uart_ready(void)
+static void _wait_uart_ready(void)
 {
     while (!(UART1_SR & UART1_SR_TXE))
         ;
